@@ -1,0 +1,87 @@
+{
+	"character": [{
+			"info": {
+				"id": "0",
+				"type": "battle",
+				"Name": "Warrior"
+			},
+			"mutalbeData": {
+				"level": 1,
+				"exp": 0,
+				"healthPoint": 1200,
+				"energyPoint": 100,
+				"erosionPoint": 60
+			},
+			"stats": {
+				"attackPower": 100,
+				"attackSpeed": 150,
+				"defensePower": 0,
+				"moveSpeed": 350,
+				"criticalProbability": 10.0
+			}
+		},
+		{
+			"info": {
+				"id": "1",
+				"type": "battle",
+				"Name": "Wizard"
+			},
+			"mutalbeData": {
+				"level": 1,
+				"exp": 0,
+				"healthPoint": 1000,
+				"energyPoint": 180,
+				"erosionPoint": 60
+			},
+			"stats": {
+				"attackPower": 60,
+				"attackSpeed": 170,
+				"defensePower": 0,
+				"moveSpeed": 300,
+				"criticalProbability": 10.0
+			}
+		},
+		{
+			"info": {
+				"id": "2",
+				"type": "battle",
+				"Name": "Acolyte"
+			},
+			"mutalbeData": {
+				"level": 1,
+				"exp": 0,
+				"healthPoint": 1000,
+				"energyPoint": 180,
+				"erosionPoint": 60
+			},
+			"stats": {
+				"attackPower": 60,
+				"attackSpeed": 170,
+				"defensePower": 0,
+				"moveSpeed": 300,
+				"criticalProbability": 10.0
+			}
+		},
+		{
+			"info": {
+				"id": "3",
+				"type": "command",
+				"Name": "commander"
+			},
+			"mutalbeData": {
+				"level": 1,
+				"exp": 0,
+				"healthPoint": 1000,
+				"energyPoint": 180,
+				"erosionPoint": 60
+			},
+			"stats": {
+				"attackPower": 60,
+				"attackSpeed": 170,
+				"defensePower": 0,
+				"moveSpeed": 300,
+				"criticalProbability": 10.0
+			}
+		}
+	]
+}
