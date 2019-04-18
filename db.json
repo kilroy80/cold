@@ -1,87 +1,325 @@
 {
-	"character": [{
-			"info": {
-				"id": "0",
-				"type": "battle",
-				"Name": "Warrior"
-			},
-			"mutalbeData": {
-				"level": 1,
-				"exp": 0,
-				"healthPoint": 1200,
-				"energyPoint": 100,
-				"erosionPoint": 60
-			},
-			"stats": {
-				"attackPower": 100,
-				"attackSpeed": 150,
-				"defensePower": 0,
-				"moveSpeed": 350,
-				"criticalProbability": 10.0
-			}
-		},
-		{
-			"info": {
-				"id": "1",
-				"type": "battle",
-				"Name": "Wizard"
-			},
-			"mutalbeData": {
-				"level": 1,
-				"exp": 0,
-				"healthPoint": 1000,
-				"energyPoint": 180,
-				"erosionPoint": 60
-			},
-			"stats": {
-				"attackPower": 60,
-				"attackSpeed": 170,
-				"defensePower": 0,
-				"moveSpeed": 300,
-				"criticalProbability": 10.0
-			}
-		},
-		{
-			"info": {
-				"id": "2",
-				"type": "battle",
-				"Name": "Acolyte"
-			},
-			"mutalbeData": {
-				"level": 1,
-				"exp": 0,
-				"healthPoint": 1000,
-				"energyPoint": 180,
-				"erosionPoint": 60
-			},
-			"stats": {
-				"attackPower": 60,
-				"attackSpeed": 170,
-				"defensePower": 0,
-				"moveSpeed": 300,
-				"criticalProbability": 10.0
-			}
-		},
-		{
-			"info": {
-				"id": "3",
-				"type": "command",
-				"Name": "commander"
-			},
-			"mutalbeData": {
-				"level": 1,
-				"exp": 0,
-				"healthPoint": 1000,
-				"energyPoint": 180,
-				"erosionPoint": 60
-			},
-			"stats": {
-				"attackPower": 60,
-				"attackSpeed": 170,
-				"defensePower": 0,
-				"moveSpeed": 300,
-				"criticalProbability": 10.0
-			}
-		}
-	]
+  "character": [
+    {
+      "info": {
+        "id": "0",
+        "type": "battle",
+        "Name": "Warrior"
+      },
+      "mutalbeData": {
+        "level": 1,
+        "exp": 0,
+        "healthPoint": 1200,
+        "energyPoint": 100,
+        "erosionPoint": 60
+      },
+      "stats": {
+        "attackPower": 100,
+        "attackSpeed": 150,
+        "defensePower": 0,
+        "moveSpeed": 350,
+        "criticalProbability": 10
+      },
+      "skills": [
+        {
+          "Name": "Cresentslash",
+          "Power": 250,
+          "Rate": 1,
+          "CostEP": 20,
+          "Range": 2,
+          "EffectiveRange": 1,
+          "EffectiveTime": 0,
+          "PreDelay": 0,
+          "PostDelay": 2
+        },
+        {
+          "Name": "Fullmoon",
+          "Power": 400,
+          "Rate": 1,
+          "CostEP": 50,
+          "Range": 4,
+          "EffectiveRange": 4,
+          "EffectiveTime": 0,
+          "PreDelay": 0,
+          "PostDelay": 6
+        },
+        {
+          "Name": "Depth1",
+          "Power": 0,
+          "Rate": 1,
+          "CostEP": 30,
+          "Range": 3,
+          "EffectiveRange": 3,
+          "EffectiveTime": 5,
+          "PreDelay": 0,
+          "PostDelay": 6
+        },
+        {
+          "Name": "Depth2",
+          "Power": 0,
+          "Rate": 1,
+          "CostEP": 20,
+          "Range": 0,
+          "EffectiveRange": 0,
+          "EffectiveTime": 5,
+          "PreDelay": 0,
+          "PostDelay": 6
+        },
+        {
+          "Name": "Depth3",
+          "Power": 0,
+          "Rate": 1,
+          "CostEP": 40,
+          "Range": 0,
+          "EffectiveRange": 0,
+          "EffectiveTime": 5,
+          "PreDelay": 0,
+          "PostDelay": 6
+        },
+        {
+          "Name": "Proveke",
+          "Power": 0,
+          "Rate": 1,
+          "CostEP": 60,
+          "Range": 6,
+          "EffectiveRange": 0,
+          "EffectiveTime": 2,
+          "PreDelay": 1,
+          "PostDelay": 16
+        },
+        {
+          "Name": "Slash",
+          "Power": 100,
+          "Rate": 1,
+          "CostEP": 0,
+          "Range": 1.2,
+          "EffectiveRange": 0,
+          "EffectiveTime": 0,
+          "PreDelay": 0,
+          "PostDelay": 0
+        }
+      ]
+    },
+    {
+      "info": {
+        "id": "1",
+        "type": "battle",
+        "Name": "Wizard"
+      },
+      "mutalbeData": {
+        "level": 1,
+        "exp": 0,
+        "healthPoint": 1000,
+        "energyPoint": 180,
+        "erosionPoint": 60
+      },
+      "stats": {
+        "attackPower": 60,
+        "attackSpeed": 170,
+        "defensePower": 0,
+        "moveSpeed": 300,
+        "criticalProbability": 10
+      },
+      "skills": [
+        {
+          "Name": "Cresentslash",
+          "Power": 250,
+          "Rate": 1,
+          "CostEP": 20,
+          "Range": 2,
+          "EffectiveRange": 1,
+          "EffectiveTime": 0,
+          "PreDelay": 0,
+          "PostDelay": 2
+        },
+        {
+          "Name": "Fullmoon",
+          "Power": 400,
+          "Rate": 1,
+          "CostEP": 50,
+          "Range": 4,
+          "EffectiveRange": 4,
+          "EffectiveTime": 0,
+          "PreDelay": 0,
+          "PostDelay": 6
+        },
+        {
+          "Name": "Depth1",
+          "Power": 0,
+          "Rate": 1,
+          "CostEP": 30,
+          "Range": 3,
+          "EffectiveRange": 3,
+          "EffectiveTime": 5,
+          "PreDelay": 0,
+          "PostDelay": 6
+        },
+        {
+          "Name": "Depth2",
+          "Power": 0,
+          "Rate": 1,
+          "CostEP": 20,
+          "Range": 0,
+          "EffectiveRange": 0,
+          "EffectiveTime": 5,
+          "PreDelay": 0,
+          "PostDelay": 6
+        },
+        {
+          "Name": "Depth3",
+          "Power": 0,
+          "Rate": 1,
+          "CostEP": 40,
+          "Range": 0,
+          "EffectiveRange": 0,
+          "EffectiveTime": 5,
+          "PreDelay": 0,
+          "PostDelay": 6
+        },
+        {
+          "Name": "Proveke",
+          "Power": 0,
+          "Rate": 1,
+          "CostEP": 60,
+          "Range": 6,
+          "EffectiveRange": 0,
+          "EffectiveTime": 2,
+          "PreDelay": 1,
+          "PostDelay": 16
+        },
+        {
+          "Name": "Slash",
+          "Power": 100,
+          "Rate": 1,
+          "CostEP": 0,
+          "Range": 1.2,
+          "EffectiveRange": 0,
+          "EffectiveTime": 0,
+          "PreDelay": 0,
+          "PostDelay": 0
+        }
+      ]
+    },
+    {
+      "info": {
+        "id": "2",
+        "type": "battle",
+        "Name": "Acolyte"
+      },
+      "mutalbeData": {
+        "level": 1,
+        "exp": 0,
+        "healthPoint": 1000,
+        "energyPoint": 180,
+        "erosionPoint": 60
+      },
+      "stats": {
+        "attackPower": 60,
+        "attackSpeed": 170,
+        "defensePower": 0,
+        "moveSpeed": 300,
+        "criticalProbability": 10
+      },
+      "skills": [
+        {
+          "Name": "Cresentslash",
+          "Power": 250,
+          "Rate": 1,
+          "CostEP": 20,
+          "Range": 2,
+          "EffectiveRange": 1,
+          "EffectiveTime": 0,
+          "PreDelay": 0,
+          "PostDelay": 2
+        },
+        {
+          "Name": "Fullmoon",
+          "Power": 400,
+          "Rate": 1,
+          "CostEP": 50,
+          "Range": 4,
+          "EffectiveRange": 4,
+          "EffectiveTime": 0,
+          "PreDelay": 0,
+          "PostDelay": 6
+        },
+        {
+          "Name": "Depth1",
+          "Power": 0,
+          "Rate": 1,
+          "CostEP": 30,
+          "Range": 3,
+          "EffectiveRange": 3,
+          "EffectiveTime": 5,
+          "PreDelay": 0,
+          "PostDelay": 6
+        },
+        {
+          "Name": "Depth2",
+          "Power": 0,
+          "Rate": 1,
+          "CostEP": 20,
+          "Range": 0,
+          "EffectiveRange": 0,
+          "EffectiveTime": 5,
+          "PreDelay": 0,
+          "PostDelay": 6
+        },
+        {
+          "Name": "Depth3",
+          "Power": 0,
+          "Rate": 1,
+          "CostEP": 40,
+          "Range": 0,
+          "EffectiveRange": 0,
+          "EffectiveTime": 5,
+          "PreDelay": 0,
+          "PostDelay": 6
+        },
+        {
+          "Name": "Proveke",
+          "Power": 0,
+          "Rate": 1,
+          "CostEP": 60,
+          "Range": 6,
+          "EffectiveRange": 0,
+          "EffectiveTime": 2,
+          "PreDelay": 1,
+          "PostDelay": 16
+        },
+        {
+          "Name": "Slash",
+          "Power": 100,
+          "Rate": 1,
+          "CostEP": 0,
+          "Range": 1.2,
+          "EffectiveRange": 0,
+          "EffectiveTime": 0,
+          "PreDelay": 0,
+          "PostDelay": 0
+        }
+      ]
+    },
+    {
+      "info": {
+        "id": "3",
+        "type": "command",
+        "Name": "commander"
+      },
+      "mutalbeData": {
+        "level": 1,
+        "exp": 0,
+        "healthPoint": 1000,
+        "energyPoint": 180,
+        "erosionPoint": 60
+      },
+      "stats": {
+        "attackPower": 60,
+        "attackSpeed": 170,
+        "defensePower": 0,
+        "moveSpeed": 300,
+        "criticalProbability": 10
+      }
+    }
+  ]
 }
