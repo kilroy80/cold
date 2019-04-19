@@ -319,7 +319,9 @@
         "defensePower": 0,
         "moveSpeed": 300,
         "criticalProbability": 10
-      }
+      },
+      "skills": [
+        ]
     }
   ]
 }
