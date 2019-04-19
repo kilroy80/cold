@@ -26,8 +26,8 @@
           "power": 250,
           "rate": 1,
           "costEP": 20,
-          "range": 2,
-          "effectiveRange": 1,
+          "range": 200,
+          "effectiveRange": 100,
           "effectiveTime": 0,
           "preDelay": 0,
           "postDelay": 2
@@ -35,10 +35,10 @@
         {
           "name": "Fullmoon",
           "power": 400,
-          "rate": 1,
+          "rate": 100,
           "costEP": 50,
           "range": 4,
-          "effectiveRange": 4,
+          "effectiveRange": 400,
           "effectiveTime": 0,
           "preDelay": 0,
           "postDelay": 6
@@ -48,8 +48,8 @@
           "power": 0,
           "rate": 1,
           "costEP": 30,
-          "range": 3,
-          "effectiveRange": 3,
+          "range": 300,
+          "effectiveRange": 300,
           "effectiveTime": 5,
           "preDelay": 0,
           "postDelay": 6
@@ -81,7 +81,7 @@
           "power": 0,
           "rate": 1,
           "costEP": 60,
-          "range": 6,
+          "range": 600,
           "effectiveRange": 0,
           "effectiveTime": 2,
           "preDelay": 1,
@@ -92,7 +92,7 @@
           "power": 100,
           "rate": 1,
           "costEP": 0,
-          "range": 1.2,
+          "range": 120,
           "effectiveRange": 0,
           "effectiveTime": 0,
           "preDelay": 0,
@@ -126,8 +126,8 @@
           "power": 300,
           "rate": 1,
           "costEP": 40,
-          "range": 5,
-          "effectiveRange": 1.2,
+          "range": 500,
+          "effectiveRange": 120,
           "effectiveTime": 0,
           "preDelay": 0,
           "postDelay": 2
@@ -137,8 +137,8 @@
           "power": 500,
           "rate": 1,
           "costEP": 80,
-          "range": 6,
-          "effectiveRange": 6,
+          "range": 600,
+          "effectiveRange": 600,
           "effectiveTime": 0,
           "preDelay": 0,
           "postDelay": 6
@@ -148,7 +148,7 @@
           "power": 0,
           "rate": 1,
           "costEP": 20,
-          "range": 5,
+          "range": 500,
           "effectiveRange": 0,
           "effectiveTime": 6,
           "preDelay": 0,
@@ -159,8 +159,8 @@
           "power": 0,
           "rate": 1,
           "costEP": 20,
-          "range": 5,
-          "effectiveRange": 4,
+          "range": 500,
+          "effectiveRange": 400,
           "effectiveTime": 6,
           "preDelay": 0,
           "postDelay": 6
@@ -181,8 +181,8 @@
           "power": 0,
           "rate": 1,
           "costEP": 60,
-          "range": 6,
-          "effectiveRange": 6,
+          "range": 600,
+          "effectiveRange": 600,
           "effectiveTime": 2,
           "preDelay": 2,
           "postDelay": 16
@@ -192,7 +192,7 @@
           "power": 60,
           "rate": 1,
           "costEP": 0,
-          "range": 5,
+          "range": 500,
           "effectiveRange": 0,
           "effectiveTime": 0,
           "preDelay": 0,
@@ -226,8 +226,8 @@
           "power": 200,
           "rate": 1,
           "costEP": 35,
-          "range": 4,
-          "effectiveRange": 4,
+          "range": 400,
+          "effectiveRange": 400,
           "effectiveTime": 20,
           "preDelay": 0,
           "postDelay": 5
@@ -237,7 +237,7 @@
           "power": 400,
           "rate": 1,
           "costEP": 50,
-          "range": 4,
+          "range": 400,
           "effectiveRange": 0,
           "effectiveTime": 0,
           "preDelay": 0,
@@ -248,8 +248,8 @@
           "power": 0,
           "rate": 1,
           "costEP": 15,
-          "range": 1.2,
-          "effectiveRange": 8,
+          "range": 120,
+          "effectiveRange": 800,
           "effectiveTime": 20,
           "preDelay": 0,
           "postDelay": 5
@@ -259,8 +259,8 @@
           "power": 0,
           "rate": 1,
           "costEP": 15,
-          "range": 1.2,
-          "effectiveRange": 4,
+          "range": 120,
+          "effectiveRange": 400,
           "effectiveTime": 5,
           "preDelay": 0,
           "postDelay": 10
@@ -270,8 +270,8 @@
           "power": 0,
           "rate": 1,
           "costEP": 15,
-          "range": 1.2,
-          "effectiveRange": 4,
+          "range": 120,
+          "effectiveRange": 400,
           "effectiveTime": 10,
           "preDelay": 0,
           "postDelay": 5
@@ -281,8 +281,8 @@
           "power": 0,
           "rate": 1,
           "costEP": 60,
-          "range": 6,
-          "effectiveRange": 6,
+          "range": 600,
+          "effectiveRange": 600,
           "effectiveTime": 0,
           "preDelay": 1,
           "postDelay": 16
@@ -292,7 +292,7 @@
           "power": 30,
           "rate": 1,
           "costEP": 0,
-          "range": 4,
+          "range": 400,
           "effectiveRange": 0,
           "effectiveTime": 0,
           "preDelay": 0,
@@ -319,9 +319,7 @@
         "defensePower": 0,
         "moveSpeed": 300,
         "criticalProbability": 10
-      },
-      "skills": [
-      ]
+      }
     }
   ]
 }
