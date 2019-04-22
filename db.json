@@ -45,7 +45,7 @@
         },
         {
           "name": "Depth1",
-          "power": 0,
+          "power": 1.2,
           "rate": 1,
           "costEP": 30,
           "range": 300,
@@ -56,7 +56,7 @@
         },
         {
           "name": "Depth2",
-          "power": 0,
+          "power": 1.2,
           "rate": 1,
           "costEP": 20,
           "range": 0,
@@ -67,7 +67,7 @@
         },
         {
           "name": "Depth3",
-          "power": 0,
+          "power": 1.3,
           "rate": 1,
           "costEP": 40,
           "range": 0,
