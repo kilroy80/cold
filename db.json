@@ -72,7 +72,7 @@
         },
         {
           "name": "Depth3",
-          "power": 1.3,
+          "power": 0.3,
           "rate": 1,
           "costEP": 40,
           "range": 0,
