@@ -1,4 +1,9 @@
 {
+  "system": {
+    "gameMode": {
+      "roundTime": 1800
+    }
+  },
   "character": [
     {
       "info": {
