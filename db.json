@@ -40,7 +40,8 @@
         {
           "name": "Fullmoon",
           "power": 400,
-          "rate": 100,
+          "rate": 
+          0,
           "costEP": 50,
           "range": 400,
           "effectiveRange": 400,
@@ -123,7 +124,7 @@
         "attackSpeed": 170,
         "defensePower": 0,
         "moveSpeed": 300,
-        "criticalProbability": 10
+        "criticalProbability": 0.1
       },
       "skills": [
         {
