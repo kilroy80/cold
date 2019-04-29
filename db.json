@@ -9,7 +9,8 @@
       "info": {
         "id": "0",
         "type": "battle",
-        "name": "warrior"
+        "name": "warrior",
+        "description": "한번 전투를 시작하면\n아군 적군없이 쓰러뜨린다."
       },
       "mutalbeData": {
         "level": 1,
@@ -110,7 +111,8 @@
       "info": {
         "id": "1",
         "type": "battle",
-        "name": "wizard"
+        "name": "wizard",
+        "description": "귀여운 이름과는 다르게\n생긴 심히 아저씨다."
       },
       "mutalbeData": {
         "level": 1,
@@ -210,7 +212,8 @@
       "info": {
         "id": "2",
         "type": "battle",
-        "name": "acolyte"
+        "name": "acolyte",
+        "description": "힐링팩트 유물 소유자\n치유시 아군의 머리만 노린다."
       },
       "mutalbeData": {
         "level": 1,
@@ -310,7 +313,8 @@
       "info": {
         "id": "3",
         "type": "command",
-        "name": "commander"
+        "name": "commander",
+        "description": "전장을 지휘하여 아군을\n제압합니다."
       },
       "mutalbeData": {
         "level": 1,
