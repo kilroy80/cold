@@ -11,7 +11,7 @@
         "type": "battle",
         "name": "warrior",
         "description": "한번 전투를 시작하면\n아군 적군없이 쓰러뜨린다.",
-        "selectDescription": "&lt;RichText.GoldBold&gt;[커맨더]&lt;/&gt;는  직접 전투를 하는 것이 아닌 아군을 지휘하여\n승리로 이끄는 팀의 두뇌역활 입니다.\n&lt;RichText.GoldBold&gt;[커맨더]&lt;/&gt; 로 전투에 참여하시겠습니까?"
+        "selectDescription": "<RichText.GoldBold>[커맨더]</>는  직접 전투를 하는 것이 아닌 아군을 지휘하여\n승리로 이끄는 팀의 두뇌역활 입니다.\n<RichText.GoldBold>[커맨더]</> 로 전투에 참여하시겠습니까?"
       },
       "mutalbeData": {
         "level": 1,
