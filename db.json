@@ -11,7 +11,7 @@
         "type": "battle",
         "name": "warrior",
         "description": "한번 전투를 시작하면\n아군 적군없이 쓰러뜨린다.",
-        "selectDescription": "PFJpY2hUZXh0LkdvbGRCb2xkPlvsu6Trp6jrjZRdPC8+64qUICDsp4HsoJEg7KCE7Yis66W8IO2VmOuKlCDqsoPsnbQg7JWE64uMIOyVhOq1sOydhCDsp4DtnJjtlZjsl6xcbuyKueumrOuhnCDsnbTrgYTripQg7YyA7J2YIOuRkOuHjOyXre2ZnCDsnoXri4jri6QuXG48UmljaFRleHQuR29sZEJvbGQ+W+y7pOunqOuNlF08Lz4g66GcIOyghO2IrOyXkCDssLjsl6ztlZjsi5zqsqDsirXri4jquYw/"
+        "selectDescription": "&lt;RichText.GoldBold&gt;[커맨더]&lt;/&gt;는  직접 전투를 하는 것이 아닌 아군을 지휘하여\n승리로 이끄는 팀의 두뇌역활 입니다.\n&lt;RichText.GoldBold&gt;[커맨더]&lt;/&gt; 로 전투에 참여하시겠습니까?"
       },
       "mutalbeData": {
         "level": 1,
@@ -318,7 +318,7 @@
         "type": "command",
         "name": "commander",
         "description": "전장을 지휘하여 아군을\n제압합니다.",
-        "selectDescription": "PFJpY2hUZXh0LkdvbGRCb2xkPlvsu6Trp6jrjZRdPC8+64qUICDsp4HsoJEg7KCE7Yis66W8IO2VmOuKlCDqsoPsnbQg7JWE64uMIOyVhOq1sOydhCDsp4DtnJjtlZjsl6xcbuyKueumrOuhnCDsnbTrgYTripQg7YyA7J2YIOuRkOuHjOyXre2ZnCDsnoXri4jri6QuXG48UmljaFRleHQuR29sZEJvbGQ+W+y7pOunqOuNlF08Lz4g66GcIOyghO2IrOyXkCDssLjsl6ztlZjsi5zqsqDsirXri4jquYw/"
+        "selectDescription": "&lt;RichText.GoldBold&gt;[커맨더]&lt;/&gt;는  직접 전투를 하는 것이 아닌 아군을 지휘하여\n승리로 이끄는 팀의 두뇌역활 입니다.\n&lt;RichText.GoldBold&gt;[커맨더]&lt;/&gt; 로 전투에 참여하시겠습니까?"
       },
       "mutalbeData": {
         "level": 1,
