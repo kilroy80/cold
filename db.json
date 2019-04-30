@@ -11,7 +11,7 @@
         "type": "battle",
         "name": "warrior",
         "description": "한번 전투를 시작하면\n아군 적군없이 쓰러뜨린다.",
-        "selectDescription": "<font color="#c9a760">테스트 문장입니다.</font>"
+        "selectDescription": "%3Cfont+color%3D%22%23c9a760%22%3E%ED%85%8C%EC%8A%A4%ED%8A%B8+%EB%AC%B8%EC%9E%A5%EC%9E%85%EB%8B%88%EB%8B%A4.%3C%2Ffont%3E"
       },
       "mutalbeData": {
         "level": 1,
@@ -114,7 +114,7 @@
         "type": "battle",
         "name": "wizard",
         "description": "귀여운 이름과는 다르게\n생긴건 심히 아저씨다.",
-        "selectDescription": "<font color="#c9a760">테스트 문장입니다.</font>"
+        "selectDescription": "%3Cfont+color%3D%22%23c9a760%22%3E%ED%85%8C%EC%8A%A4%ED%8A%B8+%EB%AC%B8%EC%9E%A5%EC%9E%85%EB%8B%88%EB%8B%A4.%3C%2Ffont%3E"
       },
       "mutalbeData": {
         "level": 1,
@@ -216,7 +216,7 @@
         "type": "battle",
         "name": "acolyte",
         "description": "힐링팩트 유물 소유자\n치유시 아군의 머리만 노린다.",
-        "selectDescription": "<font color="#c9a760">테스트 문장입니다.</font>"
+        "selectDescription": "%3Cfont+color%3D%22%23c9a760%22%3E%ED%85%8C%EC%8A%A4%ED%8A%B8+%EB%AC%B8%EC%9E%A5%EC%9E%85%EB%8B%88%EB%8B%A4.%3C%2Ffont%3E"
       },
       "mutalbeData": {
         "level": 1,
@@ -318,7 +318,7 @@
         "type": "command",
         "name": "commander",
         "description": "전장을 지휘하여 아군을\n제압합니다.",
-        "selectDescription": "<font color="#c9a760">테스트 문장입니다.</font>"
+        "selectDescription": "%3Cfont+color%3D%22%23c9a760%22%3E%ED%85%8C%EC%8A%A4%ED%8A%B8+%EB%AC%B8%EC%9E%A5%EC%9E%85%EB%8B%88%EB%8B%A4.%3C%2Ffont%3E"
       },
       "mutalbeData": {
         "level": 1,
