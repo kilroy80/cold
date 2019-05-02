@@ -9,7 +9,7 @@
       "info": {
         "id": "0",
         "type": "battle",
-        "name": "warrior",
+        "name": "arrior",
         "description": "한번 전투를 시작하면\n아군 적군없이 쓰러뜨린다.",
         "selectDescription": "<RichText.GoldBold>[워리어]</>는 직접 전투를 하는 것이 아닌 아군을 지휘하여\n승리로 이끄는 팀의 두뇌역활 입니다.\n<RichText.GoldBold>[워리어]</>로 전투에 참여하시겠습니까?"
       },
@@ -112,7 +112,7 @@
       "info": {
         "id": "1",
         "type": "battle",
-        "name": "wizard",
+        "name": "Wizard",
         "description": "귀여운 이름과는 다르게\n생긴건 심히 아저씨다.",
         "selectDescription": "<RichText.GoldBold>[위저드]</>는 직접 전투를 하는 것이 아닌 아군을 지휘하여\n승리로 이끄는 팀의 두뇌역활 입니다.\n<RichText.GoldBold>[위저드]</>로 전투에 참여하시겠습니까?"
       },
@@ -214,7 +214,7 @@
       "info": {
         "id": "2",
         "type": "battle",
-        "name": "acolyte",
+        "name": "Acolyte",
         "description": "힐링팩트 유물 소유자\n치유시 아군의 머리만 노린다.",
         "selectDescription": "<RichText.GoldBold>[아콜라이트]</>는 직접 전투를 하는 것이 아닌 아군을 지휘하여\n승리로 이끄는 팀의 두뇌역활 입니다.\n<RichText.GoldBold>[아콜라이트]</>로 전투에 참여하시겠습니까?"
       },
@@ -316,7 +316,7 @@
       "info": {
         "id": "3",
         "type": "command",
-        "name": "commander",
+        "name": "Commander",
         "description": "전장을 지휘하여 아군을\n제압합니다.",
         "selectDescription": "<RichText.GoldBold>[커맨더]</>는 직접 전투를 하는 것이 아닌 아군을 지휘하여\n승리로 이끄는 팀의 두뇌역활 입니다.\n<RichText.GoldBold>[커맨더]</>로 전투에 참여하시겠습니까?"
       },
