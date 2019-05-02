@@ -177,7 +177,7 @@
         },
         {
           "name": "Corruption",
-          "power": 0,
+          "power": 200,
           "rate": 1,
           "costEP": 20,
           "range": 0,
