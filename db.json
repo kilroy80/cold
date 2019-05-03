@@ -26,7 +26,8 @@
         "defensePower": 0,
         "moveSpeed": 350,
         "criticalProbability": 0.1,
-        "hpRecoveryValue": 5.0
+        "hpRecoveryValue": 5.0,
+        "epRecoveryValue": 1.0
       },
       "skills": [
         {
@@ -130,7 +131,8 @@
         "defensePower": 0,
         "moveSpeed": 300,
         "criticalProbability": 0.1,
-        "hpRecoveryValue": 1.0
+        "hpRecoveryValue": 1.0,
+        "epRecoveryValue": 3.0
       },
       "skills": [
         {
@@ -233,7 +235,8 @@
         "defensePower": 0,
         "moveSpeed": 300,
         "criticalProbability": 0.1,
-        "hpRecoveryValue": 2.0
+        "hpRecoveryValue": 2.0,
+        "epRecoveryValue": 2.0
       },
       "skills": [
         {
