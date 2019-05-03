@@ -25,7 +25,8 @@
         "attackSpeed": 150,
         "defensePower": 0,
         "moveSpeed": 350,
-        "criticalProbability": 0.1
+        "criticalProbability": 0.1,
+        "hpRecoveryValue": 5.0
       },
       "skills": [
         {
@@ -128,7 +129,8 @@
         "attackSpeed": 170,
         "defensePower": 0,
         "moveSpeed": 300,
-        "criticalProbability": 0.1
+        "criticalProbability": 0.1,
+        "hpRecoveryValue": 1.0
       },
       "skills": [
         {
@@ -230,7 +232,8 @@
         "attackSpeed": 170,
         "defensePower": 0,
         "moveSpeed": 300,
-        "criticalProbability": 0.1
+        "criticalProbability": 0.1,
+        "hpRecoveryValue": 2.0
       },
       "skills": [
         {
