@@ -338,7 +338,9 @@
         "attackSpeed": 170,
         "defensePower": 0,
         "moveSpeed": 300,
-        "criticalProbability": 10
+        "criticalProbability": 10,
+        "hpRecoveryValue": 0.0,
+        "epRecoveryValue": 0.0
       },
       "skills": []
     }
