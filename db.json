@@ -159,7 +159,7 @@
         },
         {
           "name": "Vulnerable",
-          "power": 0,
+          "power": 0.8,
           "rate": 1,
           "costEP": 20,
           "range": 800,
@@ -170,7 +170,7 @@
         },
         {
           "name": "Reduce",
-          "power": 0,
+          "power": 0.8,
           "rate": 1,
           "costEP": 20,
           "range": 500,
