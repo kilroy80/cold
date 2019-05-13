@@ -173,8 +173,8 @@
           "power": 0.8,
           "rate": 1,
           "costEP": 20,
-          "range": 500,
-          "effectiveRange": 800,
+          "range": 800,
+          "effectiveRange": 400,
           "effectiveTime": 6,
           "preDelay": 0,
           "postDelay": 6
