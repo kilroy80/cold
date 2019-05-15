@@ -193,11 +193,11 @@
         {
           "name": "ThunderStorm",
           "power": 1000,
-          "rate": 1,
+          "rate": 0.5,
           "costEP": 60,
           "range": 1300,
           "effectiveRange": 1200,
-          "effectiveTime": 2,
+          "effectiveTime": 6,
           "preDelay": 2,
           "postDelay": 16
         },
