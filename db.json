@@ -199,7 +199,7 @@
           "effectiveRange": 1200,
           "effectiveTime": 2,
           "preDelay": 2,
-          "postDelay": 16
+          "postDelay": 1
         },
         {
           "name": "MagicRune",
