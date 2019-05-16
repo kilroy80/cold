@@ -274,7 +274,7 @@
         },
         {
           "name": "RaphaelSymbol",
-          "power": 0,
+          "power": 0.1,
           "rate": 1,
           "costEP": 15,
           "range": 120,
@@ -285,7 +285,7 @@
         },
         {
           "name": "GabrielSymbol",
-          "power": 0,
+          "power": 0.2,
           "rate": 1,
           "costEP": 15,
           "range": 120,
