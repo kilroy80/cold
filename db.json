@@ -95,7 +95,7 @@
           "effectiveRange": 0,
           "effectiveTime": 2,
           "preDelay": 1,
-          "postDelay": 1
+          "postDelay": 16
         },
         {
           "name": "Slash",
@@ -301,9 +301,9 @@
           "costEP": 60,
           "range": 500,
           "effectiveRange": 0,
-          "effectiveTime": 200,
+          "effectiveTime": 2,
           "preDelay": 1,
-          "postDelay": 1
+          "postDelay": 16
         },
         {
           "name": "IntimidatingFire",
