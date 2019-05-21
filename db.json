@@ -301,7 +301,7 @@
           "costEP": 60,
           "range": 500,
           "effectiveRange": 0,
-          "effectiveTime": 2,
+          "effectiveTime": 200,
           "preDelay": 1,
           "postDelay": 1
         },
