@@ -299,9 +299,9 @@
           "power": 0,
           "rate": 1,
           "costEP": 60,
-          "range": 1000,
+          "range": 500,
           "effectiveRange": 0,
-          "effectiveTime": 0,
+          "effectiveTime": 2,
           "preDelay": 1,
           "postDelay": 1
         },
