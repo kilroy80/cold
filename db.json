@@ -39,7 +39,9 @@
           "effectiveRange": 100,
           "effectiveTime": 0,
           "preDelay": 0,
-          "postDelay": 2
+          "postDelay": 2,
+          "targetNeed" : false,
+          "targetFriendly" : false
         },
         {
           "name": "Fullmoon",
@@ -51,7 +53,9 @@
           "effectiveRange": 400,
           "effectiveTime": 0,
           "preDelay": 0,
-          "postDelay": 6
+          "postDelay": 6,
+          "targetNeed" : false,
+          "targetFriendly" : false
         },
         {
           "name": "Depth1",
@@ -62,7 +66,9 @@
           "effectiveRange": 300,
           "effectiveTime": 5,
           "preDelay": 0,
-          "postDelay": 6
+          "postDelay": 6,
+          "targetNeed" : false,
+          "targetFriendly" : false
         },
         {
           "name": "Depth2",
@@ -73,7 +79,9 @@
           "effectiveRange": 0,
           "effectiveTime": 5,
           "preDelay": 0,
-          "postDelay": 6
+          "postDelay": 6,
+          "targetNeed" : false,
+          "targetFriendly" : false
         },
         {
           "name": "Depth3",
@@ -84,7 +92,9 @@
           "effectiveRange": 0,
           "effectiveTime": 5,
           "preDelay": 0,
-          "postDelay": 6
+          "postDelay": 6,
+          "targetNeed" : false,
+          "targetFriendly" : false
         },
         {
           "name": "Proveke",
@@ -95,7 +105,9 @@
           "effectiveRange": 0,
           "effectiveTime": 2,
           "preDelay": 1,
-          "postDelay": 16
+          "postDelay": 16,
+          "targetNeed" : true,
+          "targetFriendly" : false
         },
         {
           "name": "Slash",
@@ -106,7 +118,9 @@
           "effectiveRange": 0,
           "effectiveTime": 0,
           "preDelay": 0,
-          "postDelay": 0
+          "postDelay": 0,
+          "targetNeed" : false,
+          "targetFriendly" : false
         }
       ]
     },
@@ -144,7 +158,9 @@
           "effectiveRange": 120,
           "effectiveTime": 0,
           "preDelay": 0,
-          "postDelay": 2
+          "postDelay": 2,
+          "targetNeed" : false,
+          "targetFriendly" : false
         },
         {
           "name": "OverheadStone",
@@ -155,7 +171,9 @@
           "effectiveRange": 1000,
           "effectiveTime": 0,
           "preDelay": 0,
-          "postDelay": 6
+          "postDelay": 6,
+          "targetNeed" : false,
+          "targetFriendly" : false
         },
         {
           "name": "Vulnerable",
@@ -166,7 +184,9 @@
           "effectiveRange": 0,
           "effectiveTime": 6,
           "preDelay": 0,
-          "postDelay": 6
+          "postDelay": 6,
+          "targetNeed" : false,
+          "targetFriendly" : false
         },
         {
           "name": "Reduce",
@@ -177,7 +197,9 @@
           "effectiveRange": 400,
           "effectiveTime": 6,
           "preDelay": 0,
-          "postDelay": 6
+          "postDelay": 6,
+          "targetNeed" : false,
+          "targetFriendly" : false
         },
         {
           "name": "Corruption",
@@ -188,7 +210,9 @@
           "effectiveRange": 0,
           "effectiveTime": 6,
           "preDelay": 0,
-          "postDelay": 1
+          "postDelay": 1,
+          "targetNeed" : false,
+          "targetFriendly" : false
         },
         {
           "name": "ThunderStorm",
@@ -199,7 +223,9 @@
           "effectiveRange": 600,
           "effectiveTime": 6,
           "preDelay": 2,
-          "postDelay": 16
+          "postDelay": 16,
+          "targetNeed" : false,
+          "targetFriendly" : false
         },
         {
           "name": "MagicRune",
@@ -210,7 +236,9 @@
           "effectiveRange": 0,
           "effectiveTime": 0,
           "preDelay": 0,
-          "postDelay": 0
+          "postDelay": 0,
+          "targetNeed" : false,
+          "targetFriendly" : false
         }
       ]
     },
@@ -248,7 +276,9 @@
           "effectiveRange": 400,
           "effectiveTime": 20,
           "preDelay": 0,
-          "postDelay": 5
+          "postDelay": 5,
+          "targetNeed" : false,
+          "targetFriendly" : false
         },
         {
           "name": "HolyGrace",
@@ -259,7 +289,9 @@
           "effectiveRange": 0,
           "effectiveTime": 0,
           "preDelay": 0,
-          "postDelay": 6
+          "postDelay": 6,
+          "targetNeed" : false,
+          "targetFriendly" : false
         },
         {
           "name": "MichaelSymbol",
@@ -270,7 +302,9 @@
           "effectiveRange": 1200,
           "effectiveTime": 20,
           "preDelay": 0,
-          "postDelay": 5
+          "postDelay": 5,
+          "targetNeed" : false,
+          "targetFriendly" : false
         },
         {
           "name": "RaphaelSymbol",
@@ -281,7 +315,9 @@
           "effectiveRange": 800,
           "effectiveTime": 5,
           "preDelay": 0,
-          "postDelay": 10
+          "postDelay": 10,
+          "targetNeed" : false,
+          "targetFriendly" : false
         },
         {
           "name": "GabrielSymbol",
@@ -292,7 +328,9 @@
           "effectiveRange": 800,
           "effectiveTime": 10,
           "preDelay": 0,
-          "postDelay": 5
+          "postDelay": 5,
+          "targetNeed" : false,
+          "targetFriendly" : false
         },
         {
           "name": "Blessing",
@@ -303,7 +341,9 @@
           "effectiveRange": 0,
           "effectiveTime": 2,
           "preDelay": 1,
-          "postDelay": 16
+          "postDelay": 16,
+          "targetNeed" : false,
+          "targetFriendly" : false
         },
         {
           "name": "IntimidatingFire",
@@ -314,7 +354,9 @@
           "effectiveRange": 0,
           "effectiveTime": 0,
           "preDelay": 0,
-          "postDelay": 0
+          "postDelay": 0,
+          "targetNeed" : false,
+          "targetFriendly" : false
         }
       ]
     },
