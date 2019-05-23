@@ -105,7 +105,7 @@
           "effectiveRange": 0,
           "effectiveTime": 2,
           "preDelay": 1,
-          "postDelay": 16,
+          "postDelay": 1,
           "targetNeed" : true,
           "targetFriendly" : false
         },
