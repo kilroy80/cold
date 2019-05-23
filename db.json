@@ -172,7 +172,7 @@
           "effectiveTime": 0,
           "preDelay": 0,
           "postDelay": 6,
-          "targetNeed" : false,
+          "targetNeed" : true,
           "targetFriendly" : false
         },
         {
@@ -185,7 +185,7 @@
           "effectiveTime": 6,
           "preDelay": 0,
           "postDelay": 6,
-          "targetNeed" : false,
+          "targetNeed" : true,
           "targetFriendly" : false
         },
         {
@@ -198,7 +198,7 @@
           "effectiveTime": 6,
           "preDelay": 0,
           "postDelay": 6,
-          "targetNeed" : false,
+          "targetNeed" : true,
           "targetFriendly" : false
         },
         {
@@ -224,7 +224,7 @@
           "effectiveTime": 6,
           "preDelay": 2,
           "postDelay": 16,
-          "targetNeed" : false,
+          "targetNeed" : true,
           "targetFriendly" : false
         },
         {
@@ -277,8 +277,8 @@
           "effectiveTime": 20,
           "preDelay": 0,
           "postDelay": 5,
-          "targetNeed" : false,
-          "targetFriendly" : false
+          "targetNeed" : true,
+          "targetFriendly" : true
         },
         {
           "name": "HolyGrace",
