@@ -248,7 +248,7 @@
         "type": "battle",
         "name": "Acolyte",
         "description": "힐링팩트 유물 소유자\n치유시 아군의 머리만 노린다.",
-        "selectDescription": "<RichText.GoldBold>[]</>로 전투에 참여하시겠습니까?"
+        "selectDescription": "<RichText.GoldBold>[아콜라이트]</>로 전투에 참여하시겠습니까?"
       },
       "mutalbeData": {
         "level": 1,
