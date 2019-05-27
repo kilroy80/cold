@@ -10,8 +10,8 @@
         "id": "0",
         "type": "battle",
         "name": "Warrior",
-        "description": "",
-        "selectDescription": ""
+        "description": "한번 전투를 시작하면\n아군 적군없이 쓰러뜨린다.",
+        "selectDescription": "<RichText.GoldBold>[워리어]</>로 전투에 참여하시겠습니까?"
       },
       "mutalbeData": {
         "level": 1,
@@ -129,8 +129,8 @@
         "id": "1",
         "type": "battle",
         "name": "Wizard",
-        "description": "",
-        "selectDescription": ""
+        "description": "귀여운 이름과는 다르게\n생긴건 심히 아저씨다.",
+        "selectDescription": "<RichText.GoldBold>[위저드]</>로 전투에 참여하시겠습니까?"
       },
       "mutalbeData": {
         "level": 1,
@@ -247,8 +247,8 @@
         "id": "2",
         "type": "battle",
         "name": "Acolyte",
-        "description": "",
-        "selectDescription": ""
+        "description": "힐링팩트 유물 소유자\n치유시 아군의 머리만 노린다.",
+        "selectDescription": "<RichText.GoldBold>[]</>로 전투에 참여하시겠습니까?"
       },
       "mutalbeData": {
         "level": 1,
@@ -365,8 +365,8 @@
         "id": "3",
         "type": "command",
         "name": "Commander",
-        "description": "",
-        "selectDescription": ""
+        "description": "전장을 지휘하여 아군을\n제압합니다",
+        "selectDescription": "<RichText.GoldBold>[커맨더]</>로 전투에 참여하시겠습니까?"
       },
       "mutalbeData": {
         "level": 1,
