@@ -16,7 +16,7 @@
       "mutalbeData": {
         "level": 1,
         "exp": 0,
-        "healthPoint": 1200,
+        "healthPoint": 3600,
         "energyPoint": 100,
         "erosionPoint": 60
       },
@@ -105,7 +105,7 @@
           "effectiveRange": 0,
           "effectiveTime": 2,
           "preDelay": 1,
-          "postDelay": 1,
+          "postDelay": 16,
           "targetNeed" : true,
           "targetFriendly" : false
         },
@@ -135,7 +135,7 @@
       "mutalbeData": {
         "level": 1,
         "exp": 0,
-        "healthPoint": 1000,
+        "healthPoint": 3000,
         "energyPoint": 180,
         "erosionPoint": 60
       },
@@ -253,7 +253,7 @@
       "mutalbeData": {
         "level": 1,
         "exp": 0,
-        "healthPoint": 1000,
+        "healthPoint": 3000,
         "energyPoint": 180,
         "erosionPoint": 60
       },
