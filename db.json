@@ -1,8 +1,8 @@
 {
   "system": {
     "gameMode": {
-      "roundTime": 1800,
-      "serverIp": "10.110.30.160"
+      "roundTime": 900,
+      "serverIp": "127.0.0.1"
     }
   },
   "character": [
