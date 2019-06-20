@@ -207,7 +207,7 @@
           "power": 200,
           "rate": 1,
           "costEP": 20,
-          "range": 0,
+          "range": 400,
           "effectiveRange": 0,
           "effectiveTime": 6,
           "preDelay": 0,
