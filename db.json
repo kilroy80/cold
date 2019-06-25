@@ -1,7 +1,7 @@
 {
   "system": {
     "gameMode": {
-      "roundTime": 930,
+      "roundTime": 900,
       "serverIp": "127.0.0.1"
     }
   },
