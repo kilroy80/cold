@@ -22,7 +22,7 @@
         "erosionPoint": 60
       },
       "stats": {
-        "attackPower": 1.2,
+        "attackPower": 1.0,
         "attackSpeed": 150,
         "defensePower": 0,
         "moveSpeed": 350,
