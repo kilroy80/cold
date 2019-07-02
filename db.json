@@ -8,19 +8,19 @@
               "additional" : false,
               "manifestUrl" : "paks/ManifestDir/Battle_pakchunk11.0.manifest",
               "cloudUrl" : "paks/CloudDir",
-              "installDir" : ""
+              "installDir" : "GameData1"
           },
           {
               "additional" : false,
               "manifestUrl" : "paks/ManifestDir/Battle_pakchunk21.0.manifest",
               "cloudUrl" : "paks/CloudDir",
-              "installDir" : ""
+              "installDir" : "GameData2"
           },
           {
               "additional" : false,
               "manifestUrl" : "paks/ManifestDir/Battle_pakchunk31.0.manifest",
               "cloudUrl" : "paks/CloudDir",
-              "installDir" : ""
+              "installDir" : "GameData3"
           }
       ],
       "patch" : []
