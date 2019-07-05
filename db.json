@@ -18,19 +18,19 @@
           },
           {
               "additional" : false,
-              "manifestUrl" : "paks/ManifestDir/Battle_pakchunk2DLC1.0.manifest",
+              "manifestUrl" : "dlc/ManifestDir/Battle_pakchunk2DLC1.0.manifest",
               "cloudUrl" : "dlc/CloudDir",
               "installDir" : "GameDataDLC2"
           },
           {
               "additional" : false,
-              "manifestUrl" : "paks/ManifestDir/Battle_pakchunk3DLC1.0.manifest",
+              "manifestUrl" : "dlc/ManifestDir/Battle_pakchunk3DLC1.0.manifest",
               "cloudUrl" : "dlc/CloudDir",
               "installDir" : "GameDataDLC3"
           },
           {
               "additional" : false,
-              "manifestUrl" : "paks/ManifestDir/Battle_pakchunk4DLC1.0.manifest",
+              "manifestUrl" : "padlcks/ManifestDir/Battle_pakchunk4DLC1.0.manifest",
               "cloudUrl" : "dlc/CloudDir",
               "installDir" : "GameDataDLC4"
           },
