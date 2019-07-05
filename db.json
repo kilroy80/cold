@@ -18,7 +18,7 @@
           },
           {
               "additional" : false,
-              "manifestUrl" : "paks/ManifestDir/Battle_pakchunk10001.0.manifest",
+              "manifestUrl" : "paks/ManifestDir/Battle_pakchunk10000.0.manifest",
               "cloudUrl" : "paks/CloudDir",
               "installDir" : "GameData1000"
           },
