@@ -1,34 +1,7 @@
 {
-  "update" : {
-      "version" : "1.0.0",
-      "serverCdnUrl" : "http://10.110.30.160:8080/",
-      "refresh" : false,
-      "contents" : [
-          {
-              "additional" : false,
-              "manifestUrl" : "paks/ManifestDir/Battle_pakchunk11.0.manifest",
-              "cloudUrl" : "paks/CloudDir",
-              "installDir" : "GameData1"
-          },
-          {
-              "additional" : false,
-              "manifestUrl" : "paks/ManifestDir/Battle_pakchunk21.0.manifest",
-              "cloudUrl" : "paks/CloudDir",
-              "installDir" : "GameData2"
-          },
-          {
-              "additional" : false,
-              "manifestUrl" : "paks/ManifestDir/Battle_pakchunk31.0.manifest",
-              "cloudUrl" : "paks/CloudDir",
-              "installDir" : "GameData3"
-          }
-      ],
-      "patch" : []
-  },
   "system": {
     "gameMode": {
-      "roundTime": 900,
-      "serverIp": "127.0.0.1"
+      "roundTime": 1800
     }
   },
   "character": [
@@ -38,23 +11,23 @@
         "type": "battle",
         "name": "Warrior",
         "description": "한번 전투를 시작하면\n아군 적군없이 쓰러뜨린다.",
-        "selectDescription": "<RichText.GoldBold>[워리어]</>로 전투에 참여하시겠습니까?"
+        "selectDescription": "<RichText.GoldBold>[워리어]</>는 직접 전투를 하는 것이 아닌 아군을 지휘하여\n승리로 이끄는 팀의 두뇌역활 입니다.\n<RichText.GoldBold>[워리어]</>로 전투에 참여하시겠습니까?"
       },
       "mutalbeData": {
         "level": 1,
         "exp": 0,
-        "healthPoint": 3600,
+        "healthPoint": 1200,
         "energyPoint": 100,
         "erosionPoint": 60
       },
       "stats": {
-        "attackPower": 1.0,
+        "attackPower": 1.2,
         "attackSpeed": 150,
         "defensePower": 0,
         "moveSpeed": 350,
         "criticalProbability": 0.1,
-        "hpRecoveryValue": 5.0,
-        "epRecoveryValue": 1.0
+        "hpRecoveryValue": 5,
+        "epRecoveryValue": 1
       },
       "skills": [
         {
@@ -62,40 +35,36 @@
           "power": 250,
           "rate": 1,
           "costEP": 20,
-          "range": 400,
-          "effectiveRange": 0,
+          "range": 250,
+          "effectiveRange": 100,
           "effectiveTime": 0,
           "preDelay": 0,
           "postDelay": 2,
-          "targetNeed" : false,
-          "targetFriendly" : false
+          "RangeShapeType": 1
         },
         {
           "name": "Fullmoon",
           "power": 400,
-          "rate": 
-          0,
+          "rate": 0,
           "costEP": 50,
           "range": 400,
           "effectiveRange": 400,
           "effectiveTime": 0,
           "preDelay": 0,
           "postDelay": 6,
-          "targetNeed" : false,
-          "targetFriendly" : false
+          "RangeShapeType (copy)": 2
         },
         {
           "name": "Depth1",
           "power": 0.2,
           "rate": 1,
           "costEP": 30,
-          "range": 150,
-          "effectiveRange": 150,
+          "range": 300,
+          "effectiveRange": 300,
           "effectiveTime": 5,
           "preDelay": 0,
           "postDelay": 6,
-          "targetNeed" : false,
-          "targetFriendly" : false
+          "RangeShapeType (copy 2)": 2
         },
         {
           "name": "Depth2",
@@ -107,8 +76,7 @@
           "effectiveTime": 5,
           "preDelay": 0,
           "postDelay": 6,
-          "targetNeed" : false,
-          "targetFriendly" : false
+          "RangeShapeType (copy 3)": 0
         },
         {
           "name": "Depth3",
@@ -120,8 +88,7 @@
           "effectiveTime": 5,
           "preDelay": 0,
           "postDelay": 6,
-          "targetNeed" : false,
-          "targetFriendly" : false
+          "RangeShapeType (copy 4)": 0
         },
         {
           "name": "Proveke",
@@ -133,21 +100,22 @@
           "effectiveTime": 2,
           "preDelay": 1,
           "postDelay": 16,
-          "targetNeed" : true,
-          "targetFriendly" : false
+          "targetNeed": true,
+          "targetFriendly": false,
+          "RangeShapeType (copy 5)": 0
         },
         {
           "name": "Slash",
           "power": 100,
           "rate": 1,
           "costEP": 0,
-          "range": 300,
+          "range": 200,
           "effectiveRange": 0,
           "effectiveTime": 0,
           "preDelay": 0,
           "postDelay": 0,
-          "targetNeed" : false,
-          "targetFriendly" : false
+          "targetNeed": false,
+          "RangeShapeType (copy 6)": 1
         }
       ]
     },
@@ -157,12 +125,12 @@
         "type": "battle",
         "name": "Wizard",
         "description": "귀여운 이름과는 다르게\n생긴건 심히 아저씨다.",
-        "selectDescription": "<RichText.GoldBold>[위저드]</>로 전투에 참여하시겠습니까?"
+        "selectDescription": "<RichText.GoldBold>[위저드]</>는 직접 전투를 하는 것이 아닌 아군을 지휘하여\n승리로 이끄는 팀의 두뇌역활 입니다.\n<RichText.GoldBold>[위저드]</>로 전투에 참여하시겠습니까?"
       },
       "mutalbeData": {
         "level": 1,
         "exp": 0,
-        "healthPoint": 3000,
+        "healthPoint": 1000,
         "energyPoint": 180,
         "erosionPoint": 60
       },
@@ -172,8 +140,8 @@
         "defensePower": 0,
         "moveSpeed": 300,
         "criticalProbability": 0.1,
-        "hpRecoveryValue": 1.0,
-        "epRecoveryValue": 3.0
+        "hpRecoveryValue": 1,
+        "epRecoveryValue": 3
       },
       "skills": [
         {
@@ -185,9 +153,7 @@
           "effectiveRange": 120,
           "effectiveTime": 0,
           "preDelay": 0,
-          "postDelay": 2,
-          "targetNeed" : false,
-          "targetFriendly" : false
+          "postDelay": 2
         },
         {
           "name": "OverheadStone",
@@ -195,12 +161,10 @@
           "rate": 1,
           "costEP": 80,
           "range": 1000,
-          "effectiveRange": 500,
+          "effectiveRange": 1000,
           "effectiveTime": 0,
           "preDelay": 0,
-          "postDelay": 6,
-          "targetNeed" : true,
-          "targetFriendly" : false
+          "postDelay": 6
         },
         {
           "name": "Vulnerable",
@@ -211,9 +175,7 @@
           "effectiveRange": 0,
           "effectiveTime": 6,
           "preDelay": 0,
-          "postDelay": 6,
-          "targetNeed" : true,
-          "targetFriendly" : false
+          "postDelay": 6
         },
         {
           "name": "Reduce",
@@ -224,22 +186,18 @@
           "effectiveRange": 400,
           "effectiveTime": 6,
           "preDelay": 0,
-          "postDelay": 6,
-          "targetNeed" : true,
-          "targetFriendly" : false
+          "postDelay": 6
         },
         {
           "name": "Corruption",
           "power": 200,
           "rate": 1,
           "costEP": 20,
-          "range": 400,
+          "range": 0,
           "effectiveRange": 0,
           "effectiveTime": 6,
           "preDelay": 0,
-          "postDelay": 1,
-          "targetNeed" : false,
-          "targetFriendly" : false
+          "postDelay": 1
         },
         {
           "name": "ThunderStorm",
@@ -250,22 +208,18 @@
           "effectiveRange": 600,
           "effectiveTime": 6,
           "preDelay": 2,
-          "postDelay": 16,
-          "targetNeed" : true,
-          "targetFriendly" : false
+          "postDelay": 16
         },
         {
           "name": "MagicRune",
           "power": 60,
           "rate": 1,
           "costEP": 0,
-          "range": 1000,
+          "range": 1300,
           "effectiveRange": 0,
           "effectiveTime": 0,
           "preDelay": 0,
-          "postDelay": 0,
-          "targetNeed" : false,
-          "targetFriendly" : false
+          "postDelay": 0
         }
       ]
     },
@@ -275,12 +229,12 @@
         "type": "battle",
         "name": "Acolyte",
         "description": "힐링팩트 유물 소유자\n치유시 아군의 머리만 노린다.",
-        "selectDescription": "<RichText.GoldBold>[아콜라이트]</>로 전투에 참여하시겠습니까?"
+        "selectDescription": "<RichText.GoldBold>[아콜라이트]</>는 직접 전투를 하는 것이 아닌 아군을 지휘하여\n승리로 이끄는 팀의 두뇌역활 입니다.\n<RichText.GoldBold>[아콜라이트]</>로 전투에 참여하시겠습니까?"
       },
       "mutalbeData": {
         "level": 1,
         "exp": 0,
-        "healthPoint": 3000,
+        "healthPoint": 1000,
         "energyPoint": 180,
         "erosionPoint": 60
       },
@@ -290,8 +244,8 @@
         "defensePower": 0,
         "moveSpeed": 300,
         "criticalProbability": 0.1,
-        "hpRecoveryValue": 2.0,
-        "epRecoveryValue": 2.0
+        "hpRecoveryValue": 2,
+        "epRecoveryValue": 2
       },
       "skills": [
         {
@@ -300,64 +254,54 @@
           "rate": 1,
           "costEP": 35,
           "range": 800,
-          "effectiveRange": 0,
+          "effectiveRange": 400,
           "effectiveTime": 20,
           "preDelay": 0,
-          "postDelay": 5,
-          "targetNeed" : false,
-          "targetFriendly" : true
+          "postDelay": 5
         },
         {
           "name": "HolyGrace",
           "power": 400,
           "rate": 1,
           "costEP": 50,
-          "range": 400,
+          "range": 800,
           "effectiveRange": 0,
           "effectiveTime": 0,
           "preDelay": 0,
-          "postDelay": 6,
-          "targetNeed" : false,
-          "targetFriendly" : false
+          "postDelay": 6
         },
         {
           "name": "MichaelSymbol",
           "power": 0,
           "rate": 1,
           "costEP": 15,
-          "range": 0,
-          "effectiveRange": 600,
+          "range": 120,
+          "effectiveRange": 1200,
           "effectiveTime": 20,
           "preDelay": 0,
-          "postDelay": 5,
-          "targetNeed" : false,
-          "targetFriendly" : false
+          "postDelay": 5
         },
         {
           "name": "RaphaelSymbol",
           "power": 0.1,
           "rate": 1,
           "costEP": 15,
-          "range": 0,
-          "effectiveRange": 400,
+          "range": 120,
+          "effectiveRange": 800,
           "effectiveTime": 5,
           "preDelay": 0,
-          "postDelay": 10,
-          "targetNeed" : false,
-          "targetFriendly" : false
+          "postDelay": 10
         },
         {
           "name": "GabrielSymbol",
           "power": 0.2,
           "rate": 1,
           "costEP": 15,
-          "range": 0,
-          "effectiveRange": 400,
+          "range": 120,
+          "effectiveRange": 800,
           "effectiveTime": 10,
           "preDelay": 0,
-          "postDelay": 5,
-          "targetNeed" : false,
-          "targetFriendly" : false
+          "postDelay": 5
         },
         {
           "name": "Blessing",
@@ -368,9 +312,7 @@
           "effectiveRange": 0,
           "effectiveTime": 2,
           "preDelay": 1,
-          "postDelay": 16,
-          "targetNeed" : false,
-          "targetFriendly" : false
+          "postDelay": 16
         },
         {
           "name": "IntimidatingFire",
@@ -381,9 +323,7 @@
           "effectiveRange": 0,
           "effectiveTime": 0,
           "preDelay": 0,
-          "postDelay": 0,
-          "targetNeed" : false,
-          "targetFriendly" : false
+          "postDelay": 0
         }
       ]
     },
@@ -392,8 +332,8 @@
         "id": "3",
         "type": "command",
         "name": "Commander",
-        "description": "전장을 지휘하여 아군을\n제압합니다",
-        "selectDescription": "<RichText.GoldBold>[커맨더]</>로 전투에 참여하시겠습니까?"
+        "description": "전장을 지휘하여 아군을\n제압합니다.",
+        "selectDescription": "<RichText.GoldBold>[커맨더]</>는 직접 전투를 하는 것이 아닌 아군을 지휘하여\n승리로 이끄는 팀의 두뇌역활 입니다.\n<RichText.GoldBold>[커맨더]</>로 전투에 참여하시겠습니까?"
       },
       "mutalbeData": {
         "level": 1,
@@ -408,8 +348,8 @@
         "defensePower": 0,
         "moveSpeed": 300,
         "criticalProbability": 10,
-        "hpRecoveryValue": 0.0,
-        "epRecoveryValue": 0.0
+        "hpRecoveryValue": 0,
+        "epRecoveryValue": 0
       },
       "skills": []
     }
