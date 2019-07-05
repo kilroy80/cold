@@ -18,9 +18,21 @@
           },
           {
               "additional" : false,
-              "manifestUrl" : "paks/ManifestDir/Battle_pakchunk31.0.manifest",
+              "manifestUrl" : "paks/ManifestDir/Battle_pakchunk10001.0.manifest",
               "cloudUrl" : "paks/CloudDir",
-              "installDir" : "GameData3"
+              "installDir" : "GameData1000"
+          },
+          {
+              "additional" : false,
+              "manifestUrl" : "paks/ManifestDir/Battle_pakchunk100011.0.manifest",
+              "cloudUrl" : "paks/CloudDir",
+              "installDir" : "GameData1001"
+          },
+          {
+              "additional" : false,
+              "manifestUrl" : "paks/ManifestDir/Battle_pakchunk10021.0.manifest",
+              "cloudUrl" : "paks/CloudDir",
+              "installDir" : "GameData1002"
           }
       ],
       "patch" : []
