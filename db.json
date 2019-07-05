@@ -30,7 +30,7 @@
           },
           {
               "additional" : false,
-              "manifestUrl" : "padlcks/ManifestDir/Battle_pakchunk4DLC1.0.manifest",
+              "manifestUrl" : "dlc/ManifestDir/Battle_pakchunk4DLC1.0.manifest",
               "cloudUrl" : "dlc/CloudDir",
               "installDir" : "GameDataDLC4"
           },
