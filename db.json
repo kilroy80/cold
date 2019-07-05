@@ -62,40 +62,36 @@
           "power": 250,
           "rate": 1,
           "costEP": 20,
-          "range": 400,
-          "effectiveRange": 0,
+          "range": 250,
+          "effectiveRange": 100,
           "effectiveTime": 0,
           "preDelay": 0,
           "postDelay": 2,
-          "targetNeed" : false,
-          "targetFriendly" : false
+          "RangeShapeType": 1
         },
         {
           "name": "Fullmoon",
           "power": 400,
-          "rate": 
-          0,
+          "rate": 0,
           "costEP": 50,
           "range": 400,
           "effectiveRange": 400,
           "effectiveTime": 0,
           "preDelay": 0,
           "postDelay": 6,
-          "targetNeed" : false,
-          "targetFriendly" : false
+          "RangeShapeType (copy)": 2
         },
         {
           "name": "Depth1",
           "power": 0.2,
           "rate": 1,
           "costEP": 30,
-          "range": 150,
-          "effectiveRange": 150,
+          "range": 300,
+          "effectiveRange": 300,
           "effectiveTime": 5,
           "preDelay": 0,
           "postDelay": 6,
-          "targetNeed" : false,
-          "targetFriendly" : false
+          "RangeShapeType (copy 2)": 2
         },
         {
           "name": "Depth2",
@@ -107,8 +103,7 @@
           "effectiveTime": 5,
           "preDelay": 0,
           "postDelay": 6,
-          "targetNeed" : false,
-          "targetFriendly" : false
+          "RangeShapeType (copy 3)": 0
         },
         {
           "name": "Depth3",
@@ -120,8 +115,7 @@
           "effectiveTime": 5,
           "preDelay": 0,
           "postDelay": 6,
-          "targetNeed" : false,
-          "targetFriendly" : false
+          "RangeShapeType (copy 4)": 0
         },
         {
           "name": "Proveke",
@@ -133,21 +127,22 @@
           "effectiveTime": 2,
           "preDelay": 1,
           "postDelay": 16,
-          "targetNeed" : true,
-          "targetFriendly" : false
+          "targetNeed": true,
+          "targetFriendly": false,
+          "RangeShapeType (copy 5)": 0
         },
         {
           "name": "Slash",
           "power": 100,
           "rate": 1,
           "costEP": 0,
-          "range": 300,
+          "range": 200,
           "effectiveRange": 0,
           "effectiveTime": 0,
           "preDelay": 0,
           "postDelay": 0,
-          "targetNeed" : false,
-          "targetFriendly" : false
+          "targetNeed": false,
+          "RangeShapeType (copy 6)": 1
         }
       ]
     },
