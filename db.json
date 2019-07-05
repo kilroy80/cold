@@ -80,7 +80,8 @@
           "preDelay": 0,
           "postDelay": 2,
           "targetNeed" : false,
-          "targetFriendly" : false
+          "targetFriendly" : false,
+          "RangeShapeType": 1
         },
         {
           "name": "Fullmoon",
@@ -94,7 +95,8 @@
           "preDelay": 0,
           "postDelay": 6,
           "targetNeed" : false,
-          "targetFriendly" : false
+          "targetFriendly" : false,
+          "RangeShapeType": 2
         },
         {
           "name": "Depth1",
@@ -107,7 +109,8 @@
           "preDelay": 0,
           "postDelay": 6,
           "targetNeed" : false,
-          "targetFriendly" : false
+          "targetFriendly" : false,
+          "RangeShapeType": 2
         },
         {
           "name": "Depth2",
@@ -120,7 +123,8 @@
           "preDelay": 0,
           "postDelay": 6,
           "targetNeed" : false,
-          "targetFriendly" : false
+          "targetFriendly" : false,
+          "RangeShapeType": 0
         },
         {
           "name": "Depth3",
@@ -133,7 +137,8 @@
           "preDelay": 0,
           "postDelay": 6,
           "targetNeed" : false,
-          "targetFriendly" : false
+          "targetFriendly" : false,
+          "RangeShapeType": 0
         },
         {
           "name": "Proveke",
@@ -146,7 +151,8 @@
           "preDelay": 1,
           "postDelay": 16,
           "targetNeed" : true,
-          "targetFriendly" : false
+          "targetFriendly" : false,
+          "RangeShapeType": 0
         },
         {
           "name": "Slash",
@@ -159,7 +165,8 @@
           "preDelay": 0,
           "postDelay": 0,
           "targetNeed" : false,
-          "targetFriendly" : false
+          "targetFriendly" : false,
+          "RangeShapeType": 1
         }
       ]
     },
