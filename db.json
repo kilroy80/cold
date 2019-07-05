@@ -81,7 +81,7 @@
           "postDelay": 2,
           "targetNeed" : false,
           "targetFriendly" : false,
-          "RangeShapeType": 1
+          "rangeShapeType": 1
         },
         {
           "name": "Fullmoon",
@@ -96,7 +96,7 @@
           "postDelay": 6,
           "targetNeed" : false,
           "targetFriendly" : false,
-          "RangeShapeType": 2
+          "rangeShapeType": 2
         },
         {
           "name": "Depth1",
@@ -110,7 +110,7 @@
           "postDelay": 6,
           "targetNeed" : false,
           "targetFriendly" : false,
-          "RangeShapeType": 2
+          "rangeShapeType": 2
         },
         {
           "name": "Depth2",
@@ -124,7 +124,7 @@
           "postDelay": 6,
           "targetNeed" : false,
           "targetFriendly" : false,
-          "RangeShapeType": 0
+          "rangeShapeType": 0
         },
         {
           "name": "Depth3",
@@ -138,7 +138,7 @@
           "postDelay": 6,
           "targetNeed" : false,
           "targetFriendly" : false,
-          "RangeShapeType": 0
+          "rangeShapeType": 0
         },
         {
           "name": "Proveke",
@@ -152,7 +152,7 @@
           "postDelay": 16,
           "targetNeed" : true,
           "targetFriendly" : false,
-          "RangeShapeType": 0
+          "rangeShapeType": 0
         },
         {
           "name": "Slash",
@@ -166,7 +166,7 @@
           "postDelay": 0,
           "targetNeed" : false,
           "targetFriendly" : false,
-          "RangeShapeType": 1
+          "rangeShapeType": 1
         }
       ]
     },
