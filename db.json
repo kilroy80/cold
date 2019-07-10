@@ -104,8 +104,7 @@
         {
           "name": "Fullmoon",
           "power": 400,
-          "rate": 
-          0,
+          "rate": 0,
           "costEP": 50,
           "range": 400,
           "effectiveRange": 400,
