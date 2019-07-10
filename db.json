@@ -86,6 +86,20 @@
         "hpRecoveryValue": 5.0,
         "epRecoveryValue": 1.0
       },
+      "skin": [
+        {
+          "name": "base",
+          "url": ""
+        },
+        {
+          "name": "typaA",
+          "url": ""
+        },
+        {
+          "name": "typeB",
+          "url": ""
+        }
+      ],
       "skills": [
         {
           "name": "Cresentslash",
@@ -211,6 +225,20 @@
         "hpRecoveryValue": 1.0,
         "epRecoveryValue": 3.0
       },
+      "skin": [
+        {
+          "name": "base",
+          "url": ""
+        },
+        {
+          "name": "typaA",
+          "url": ""
+        },
+        {
+          "name": "typeB",
+          "url": ""
+        }
+      ],
       "skills": [
         {
           "name": "FireRune",
@@ -336,6 +364,20 @@
         "hpRecoveryValue": 2.0,
         "epRecoveryValue": 2.0
       },
+      "skin": [
+        {
+          "name": "base",
+          "url": ""
+        },
+        {
+          "name": "typaA",
+          "url": ""
+        },
+        {
+          "name": "typeB",
+          "url": ""
+        }
+      ],
       "skills": [
         {
           "name": "Pray",
@@ -461,6 +503,7 @@
         "hpRecoveryValue": 0.0,
         "epRecoveryValue": 0.0
       },
+      "skin": [],
       "skills": []
     }
   ]
