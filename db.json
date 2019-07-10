@@ -88,15 +88,15 @@
       },
       "skin": [
         {
-          "name": "base",
+          "name": "Base",
           "url": ""
         },
         {
-          "name": "typaA",
+          "name": "TypaA",
           "url": ""
         },
         {
-          "name": "typeB",
+          "name": "TypeB",
           "url": ""
         }
       ],
@@ -227,15 +227,23 @@
       },
       "skin": [
         {
-          "name": "base",
+          "name": "Base",
           "url": ""
         },
         {
-          "name": "typaA",
+          "name": "TypaA",
           "url": ""
         },
         {
-          "name": "typeB",
+          "name": "TypeB",
+          "url": ""
+        },
+        {
+          "name": "TypeC",
+          "url": ""
+        },
+        {
+          "name": "TypeD",
           "url": ""
         }
       ],
@@ -366,15 +374,15 @@
       },
       "skin": [
         {
-          "name": "base",
+          "name": "Base",
           "url": ""
         },
         {
-          "name": "typaA",
+          "name": "TypaA",
           "url": ""
         },
         {
-          "name": "typeB",
+          "name": "TypeB",
           "url": ""
         }
       ],
