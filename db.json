@@ -89,15 +89,11 @@
       "skin": [
         {
           "name": "Base",
-          "url": ""
+          "path": "/Game/NPC/PC/Material/MaterialInstance/PC_WAR_00_mtr"
         },
         {
-          "name": "TypaA",
-          "url": ""
-        },
-        {
-          "name": "TypeB",
-          "url": ""
+          "name": "TypeA",
+          "path": "/Game/NPC/PC/Material/MaterialInstance/PC_WAR_00_mtr_BR"
         }
       ],
       "skills": [
@@ -228,19 +224,19 @@
       "skin": [
         {
           "name": "Base",
-          "url": ""
+          "path": ""
         },
         {
-          "name": "TypaA",
-          "url": ""
+          "name": "TypeA",
+          "path": ""
         },
         {
           "name": "TypeB",
-          "url": ""
+          "path": ""
         },
         {
           "name": "TypeC",
-          "url": ""
+          "path": ""
         },
         {
           "name": "TypeD",
@@ -375,15 +371,15 @@
       "skin": [
         {
           "name": "Base",
-          "url": ""
+          "path": ""
         },
         {
-          "name": "TypaA",
-          "url": ""
+          "name": "TypeA",
+          "path": ""
         },
         {
           "name": "TypeB",
-          "url": ""
+          "path": ""
         }
       ],
       "skills": [
