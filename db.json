@@ -224,23 +224,19 @@
       "skin": [
         {
           "name": "Base",
-          "path": ""
+          "path": "/Game/NPC/PC/Material/MaterialInstance/PC_WIZ_00_mtr"
         },
         {
           "name": "TypeA",
-          "path": ""
+          "path": "/Game/NPC/PC/Material/MaterialInstance/PC_WIZ_00_mtr1_RED"
         },
         {
           "name": "TypeB",
-          "path": ""
+          "path": "/Game/NPC/PC/Material/MaterialInstance/PC_WIZ_00_mtr1_Black"
         },
         {
           "name": "TypeC",
-          "path": ""
-        },
-        {
-          "name": "TypeD",
-          "url": ""
+          "path": "/Game/NPC/PC/Material/MaterialInstance/PC_WIZ_00_mtr1_White"
         }
       ],
       "skills": [
@@ -371,15 +367,11 @@
       "skin": [
         {
           "name": "Base",
-          "path": ""
+          "path": "/Game/NPC/PC/Material/MaterialInstance/PC_ACO_00_mtr"
         },
         {
           "name": "TypeA",
-          "path": ""
-        },
-        {
-          "name": "TypeB",
-          "path": ""
+          "path": "/Game/NPC/PC/Material/MaterialInstance/PC_ACO_00_mtr_GoldHair"
         }
       ],
       "skills": [
