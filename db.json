@@ -242,7 +242,7 @@
       "skills": [
         {
           "name": "FireRune",
-          "power": 300,
+          "power": 3000,
           "rate": 1,
           "costEP": 40,
           "range": 800,
