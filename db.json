@@ -141,7 +141,7 @@
         },
         {
           "name": "Dash",
-          "power": 0,
+          "power": 200,
           "rate": 1,
           "costEP": 20,
           "range": 0,
@@ -419,10 +419,10 @@
         },
         {
           "name": "Evade",
-          "power": 0,
+          "power": 100,
           "rate": 1,
           "costEP": 15,
-          "range": 0,
+          "range": 800,
           "effectiveRange": 0,
           "effectiveTime": 0,
           "preDelay": 0,
