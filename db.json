@@ -140,13 +140,13 @@
           "rangeShapeType": 2
         },
         {
-          "name": "Depth2",
-          "power": 0.2,
+          "name": "Dash",
+          "power": 0,
           "rate": 1,
           "costEP": 20,
           "range": 0,
           "effectiveRange": 0,
-          "effectiveTime": 5,
+          "effectiveTime": 0,
           "preDelay": 0,
           "postDelay": 6,
           "targetNeed" : false,
@@ -283,18 +283,18 @@
           "rangeShapeType": 0
         },
         {
-          "name": "Reduce",
-          "power": 0.2,
+          "name": "Blink",
+          "power": 0,
           "rate": 1,
           "costEP": 20,
-          "range": 800,
-          "effectiveRange": 400,
-          "effectiveTime": 6,
+          "range": 0,
+          "effectiveRange": 0,
+          "effectiveTime": 0,
           "preDelay": 0,
           "postDelay": 6,
-          "targetNeed" : true,
+          "targetNeed" : false,
           "targetFriendly" : false,
-          "rangeShapeType": 2
+          "rangeShapeType": 0
         },
         {
           "name": "Corruption",
@@ -418,18 +418,18 @@
           "rangeShapeType": 2
         },
         {
-          "name": "RaphaelSymbol",
-          "power": 0.1,
+          "name": "Evade",
+          "power": 0,
           "rate": 1,
           "costEP": 15,
           "range": 0,
-          "effectiveRange": 400,
-          "effectiveTime": 5,
+          "effectiveRange": 0,
+          "effectiveTime": 0,
           "preDelay": 0,
           "postDelay": 10,
           "targetNeed" : false,
           "targetFriendly" : false,
-          "rangeShapeType": 2
+          "rangeShapeType": 0
         },
         {
           "name": "GabrielSymbol",
