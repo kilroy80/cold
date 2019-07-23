@@ -415,7 +415,7 @@
           "postDelay": 5,
           "targetNeed" : false,
           "targetFriendly" : false,
-          "rangeShapeType": 2
+          "rangeShapeType": 0
         },
         {
           "name": "Evade",
