@@ -385,7 +385,7 @@
           "effectiveTime": 20,
           "preDelay": 0,
           "postDelay": 5,
-          "targetNeed" : false,
+          "targetNeed" : true,
           "targetFriendly" : true,
           "rangeShapeType": 0
         },
