@@ -81,7 +81,7 @@
 				"defensePower": 0,
 				"moveSpeed": 350,
 				"criticalProbability": 0.1,
-				"hpRecoveryValue": 15.0,
+				"hpRecoveryValue": 20.0,
 				"epRecoveryValue": 3.0
 			},
 			"skin": [{
@@ -181,7 +181,7 @@
 					"name":             "Slash",
 					"power":            120,
 					"rate":             1,
-					"costEP":           0,
+					"costEP":           -20,
 					"range":            400,
 					"effectiveRange":   300,
 					"effectiveTime":    0,
@@ -214,8 +214,8 @@
 				"defensePower": 0,
 				"moveSpeed": 300,
 				"criticalProbability": 0.1,
-				"hpRecoveryValue": 5.0,
-				"epRecoveryValue": 6.0
+				"hpRecoveryValue": 15.0,
+				"epRecoveryValue": 7.0
 			},
 			"skin": [{
 					"name": "Base",
@@ -280,7 +280,7 @@
 					"name":             "Blink",
 					"power":            0,
 					"rate":             1,
-					"costEP":           30,
+					"costEP":           40,
 					"range":            0,
 					"effectiveRange":   0,
 					"effectiveTime":    0,
@@ -309,11 +309,11 @@
 					"power":            1600,
 					"rate":             1,
 					"costEP":           100,
-					"range":            1000,
-					"effectiveRange":   1000,
-					"effectiveTime":    8,
-					"preDelay":         5,
-					"postDelay":        90,
+					"range":            500,
+					"effectiveRange":   300,
+					"effectiveTime":    4,
+					"preDelay":         4,
+					"postDelay":        60,
 					"targetNeed":       true,
 					"targetFriendly":   false,
 					"rangeShapeType":   2
@@ -322,7 +322,7 @@
 					"name":             "MagicRune",
 					"power":            90,
 					"rate":             1,
-					"costEP":           0,
+					"costEP":           -10,
 					"range":            1600,
 					"effectiveRange":   0,
 					"effectiveTime":    0,
@@ -355,7 +355,7 @@
 				"defensePower": 0,
 				"moveSpeed": 300,
 				"criticalProbability": 0.1,
-				"hpRecoveryValue": 10.0,
+				"hpRecoveryValue": 20.0,
 				"epRecoveryValue": 5.0
 			},
 			"skin": [{
@@ -455,7 +455,7 @@
 					"name":             "IntimidatingFire",
 					"power":            70,
 					"rate":             1,
-					"costEP":           0,
+					"costEP":           -15,
 					"range":            1000,
 					"effectiveRange":   0,
 					"effectiveTime":    0,
