@@ -81,7 +81,7 @@
 				"defensePower": 0,
 				"moveSpeed": 350,
 				"criticalProbability": 0.1,
-				"hpRecoveryValue": 20.0,
+				"hpRecoveryValue": 15.0,
 				"epRecoveryValue": 3.0
 			},
 			"skin": [{
@@ -181,7 +181,7 @@
 					"name":             "Slash",
 					"power":            120,
 					"rate":             1,
-					"costEP":           -20,
+					"costEP":           -3,
 					"range":            400,
 					"effectiveRange":   300,
 					"effectiveTime":    0,
@@ -204,8 +204,8 @@
 			"mutalbeData": {
 				"level": 1,
 				"exp": 0,
-				"healthPoint": 1600,
-				"energyPoint": 200,
+				"healthPoint": 1800,
+				"energyPoint": 250,
 				"erosionPoint": 60
 			},
 			"stats": {
@@ -214,7 +214,7 @@
 				"defensePower": 0,
 				"moveSpeed": 300,
 				"criticalProbability": 0.1,
-				"hpRecoveryValue": 15.0,
+				"hpRecoveryValue": 10.0,
 				"epRecoveryValue": 7.0
 			},
 			"skin": [{
@@ -320,7 +320,7 @@
 				},
 				{
 					"name":             "MagicRune",
-					"power":            90,
+					"power":            130,
 					"rate":             1,
 					"costEP":           -10,
 					"range":            1600,
@@ -345,8 +345,8 @@
 			"mutalbeData": {
 				"level": 1,
 				"exp": 0,
-				"healthPoint": 2200,
-				"energyPoint": 150,
+				"healthPoint": 2300,
+				"energyPoint": 200,
 				"erosionPoint": 60
 			},
 			"stats": {
@@ -453,7 +453,7 @@
 				},
 				{
 					"name":             "IntimidatingFire",
-					"power":            70,
+					"power":            110,
 					"rate":             1,
 					"costEP":           -15,
 					"range":            1000,
