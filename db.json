@@ -82,7 +82,7 @@
 				"moveSpeed": 350,
 				"criticalProbability": 0.1,
 				"hpRecoveryValue": 15.0,
-				"epRecoveryValue": 5.0
+				"epRecoveryValue": 3.0
 			},
 			"skin": [{
 					"name": "Base",
@@ -215,7 +215,7 @@
 				"moveSpeed": 300,
 				"criticalProbability": 0.1,
 				"hpRecoveryValue": 5.0,
-				"epRecoveryValue": 10.0
+				"epRecoveryValue": 6.0
 			},
 			"skin": [{
 					"name": "Base",
@@ -356,7 +356,7 @@
 				"moveSpeed": 300,
 				"criticalProbability": 0.1,
 				"hpRecoveryValue": 10.0,
-				"epRecoveryValue": 8.0
+				"epRecoveryValue": 5.0
 			},
 			"skin": [{
 					"name": "Base",
