@@ -1,506 +1,498 @@
 {
-  "update" : {
-      "version" : "1.0.0",
-      "serverCdnUrl" : "http://10.110.30.160:8080/",
-      "refresh" : false,
-      "contents" : [
-          {
-              "additional" : false,
-              "manifestUrl" : "paks/ManifestDir/Battle_pakchunk11.0.manifest",
-              "cloudUrl" : "paks/CloudDir",
-              "installDir" : "GameData1"
-          },
-          {
-              "additional" : false,
-              "manifestUrl" : "paks/ManifestDir/Battle_pakchunk21.0.manifest",
-              "cloudUrl" : "paks/CloudDir",
-              "installDir" : "GameData2"
-          },
-          {
-              "additional" : false,
-              "manifestUrl" : "dlc/ManifestDir/Battle_pakchunk2DLC1.0.manifest",
-              "cloudUrl" : "dlc/CloudDir",
-              "installDir" : "GameDataDLC2"
-          },
-          {
-              "additional" : false,
-              "manifestUrl" : "dlc/ManifestDir/Battle_pakchunk3DLC1.0.manifest",
-              "cloudUrl" : "dlc/CloudDir",
-              "installDir" : "GameDataDLC3"
-          },
-          {
-              "additional" : false,
-              "manifestUrl" : "dlc/ManifestDir/Battle_pakchunk4DLC1.0.manifest",
-              "cloudUrl" : "dlc/CloudDir",
-              "installDir" : "GameDataDLC4"
-          },
-          {
-              "additional" : false,
-              "manifestUrl" : "paks/ManifestDir/Battle_pakchunk10001.0.manifest",
-              "cloudUrl" : "paks/CloudDir",
-              "installDir" : "GameData1000"
-          },
-          {
-              "additional" : false,
-              "manifestUrl" : "paks/ManifestDir/Battle_pakchunk10011.0.manifest",
-              "cloudUrl" : "paks/CloudDir",
-              "installDir" : "GameData1001"
-          },
-          {
-              "additional" : false,
-              "manifestUrl" : "paks/ManifestDir/Battle_pakchunk10021.0.manifest",
-              "cloudUrl" : "paks/CloudDir",
-              "installDir" : "GameData1002"
-          }
-      ],
-      "patch" : []
-  },
-  "system": {
-    "gameMode": {
-      "roundTime": 900,
-      "serverIp": "127.0.0.1"
-    }
-  },
-  "character": [
-    {
-      "info": {
-        "id": "0",
-        "type": "battle",
-        "name": "Warrior",
-        "description": "한번 전투를 시작하면\n아군 적군없이 쓰러뜨린다.",
-        "selectDescription": "<RichText.GoldBold>[워리어]</>로 전투에 참여하시겠습니까?"
-      },
-      "mutalbeData": {
-        "level": 1,
-        "exp": 0,
-        "healthPoint": 3600,
-        "energyPoint": 100,
-        "erosionPoint": 60
-      },
-      "stats": {
-        "attackPower": 1.0,
-        "attackSpeed": 150,
-        "defensePower": 0,
-        "moveSpeed": 350,
-        "criticalProbability": 0.1,
-        "hpRecoveryValue": 5.0,
-        "epRecoveryValue": 1.0
-      },
-      "skin": [
-        {
-          "name": "Base",
-          "path": "/Game/NPC/PC/Material/MaterialInstance/PC_WAR_00_mtr"
-        },
-        {
-          "name": "TypeA",
-          "path": "/Game/NPC/PC/Material/MaterialInstance/PC_WAR_00_mtr_BR"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Cresentslash",
-          "power": 250,
-          "rate": 1,
-          "costEP": 20,
-          "range": 400,
-          "effectiveRange": 400,
-          "effectiveTime": 0,
-          "preDelay": 0,
-          "postDelay": 2,
-          "targetNeed" : false,
-          "targetFriendly" : false,
-          "rangeShapeType": 1
-        },
-        {
-          "name": "Fullmoon",
-          "power": 400,
-          "rate": 0,
-          "costEP": 50,
-          "range": 400,
-          "effectiveRange": 400,
-          "effectiveTime": 0,
-          "preDelay": 0,
-          "postDelay": 6,
-          "targetNeed" : false,
-          "targetFriendly" : false,
-          "rangeShapeType": 2
-        },
-        {
-          "name": "Depth1",
-          "power": 0.2,
-          "rate": 1,
-          "costEP": 30,
-          "range": 150,
-          "effectiveRange": 150,
-          "effectiveTime": 5,
-          "preDelay": 0,
-          "postDelay": 6,
-          "targetNeed" : false,
-          "targetFriendly" : false,
-          "rangeShapeType": 2
-        },
-        {
-          "name": "Dash",
-          "power": 200,
-          "rate": 1,
-          "costEP": 20,
-          "range": 350,
-          "effectiveRange": 350,
-          "effectiveTime": 0,
-          "preDelay": 0,
-          "postDelay": 6,
-          "targetNeed" : false,
-          "targetFriendly" : false,
-          "rangeShapeType": 0
-        },
-        {
-          "name": "Depth3",
-          "power": 0.3,
-          "rate": 1,
-          "costEP": 40,
-          "range": 0,
-          "effectiveRange": 0,
-          "effectiveTime": 5,
-          "preDelay": 0,
-          "postDelay": 6,
-          "targetNeed" : false,
-          "targetFriendly" : false,
-          "rangeShapeType": 0
-        },
-        {
-          "name": "Proveke",
-          "power": 0,
-          "rate": 1,
-          "costEP": 60,
-          "range": 600,
-          "effectiveRange": 0,
-          "effectiveTime": 2,
-          "preDelay": 1,
-          "postDelay": 16,
-          "targetNeed" : true,
-          "targetFriendly" : false,
-          "rangeShapeType": 0
-        },
-        {
-          "name": "Slash",
-          "power": 100,
-          "rate": 1,
-          "costEP": 0,
-          "range": 300,
-          "effectiveRange": 300,
-          "effectiveTime": 0,
-          "preDelay": 0,
-          "postDelay": 0,
-          "targetNeed" : false,
-          "targetFriendly" : false,
-          "rangeShapeType": 1
-        }
-      ]
-    },
-    {
-      "info": {
-        "id": "1",
-        "type": "battle",
-        "name": "Wizard",
-        "description": "귀여운 이름과는 다르게\n생긴건 심히 아저씨다.",
-        "selectDescription": "<RichText.GoldBold>[위저드]</>로 전투에 참여하시겠습니까?"
-      },
-      "mutalbeData": {
-        "level": 1,
-        "exp": 0,
-        "healthPoint": 3000,
-        "energyPoint": 180,
-        "erosionPoint": 60
-      },
-      "stats": {
-        "attackPower": 1.0,
-        "attackSpeed": 170,
-        "defensePower": 0,
-        "moveSpeed": 300,
-        "criticalProbability": 0.1,
-        "hpRecoveryValue": 1.0,
-        "epRecoveryValue": 3.0
-      },
-      "skin": [
-        {
-          "name": "Base",
-          "path": "/Game/NPC/PC/Material/MaterialInstance/PC_WIZ_00_mtr"
-        },
-        {
-          "name": "TypeA",
-          "path": "/Game/NPC/PC/Material/MaterialInstance/PC_WIZ_00_mtr1_RED"
-        },
-        {
-          "name": "TypeB",
-          "path": "/Game/NPC/PC/Material/MaterialInstance/PC_WIZ_00_mtr1_Black"
-        },
-        {
-          "name": "TypeC",
-          "path": "/Game/NPC/PC/Material/MaterialInstance/PC_WIZ_00_mtr1_White"
-        }
-      ],
-      "skills": [
-        {
-          "name": "FireRune",
-          "power": 300,
-          "rate": 1,
-          "costEP": 40,
-          "range": 800,
-          "effectiveRange": 120,
-          "effectiveTime": 0,
-          "preDelay": 0,
-          "postDelay": 2,
-          "targetNeed" : false,
-          "targetFriendly" : false,
-          "rangeShapeType": 0
-        },
-        {
-          "name": "OverheadStone",
-          "power": 500,
-          "rate": 1,
-          "costEP": 80,
-          "range": 1000,
-          "effectiveRange": 500,
-          "effectiveTime": 0,
-          "preDelay": 0,
-          "postDelay": 6,
-          "targetNeed" : true,
-          "targetFriendly" : false,
-          "rangeShapeType": 2
-        },
-        {
-          "name": "Vulnerable",
-          "power": 0.2,
-          "rate": 1,
-          "costEP": 20,
-          "range": 800,
-          "effectiveRange": 0,
-          "effectiveTime": 6,
-          "preDelay": 0,
-          "postDelay": 6,
-          "targetNeed" : true,
-          "targetFriendly" : false,
-          "rangeShapeType": 0
-        },
-        {
-          "name": "Blink",
-          "power": 0,
-          "rate": 1,
-          "costEP": 20,
-          "range": 0,
-          "effectiveRange": 0,
-          "effectiveTime": 0,
-          "preDelay": 0,
-          "postDelay": 6,
-          "targetNeed" : false,
-          "targetFriendly" : false,
-          "rangeShapeType": 0
-        },
-        {
-          "name": "Corruption",
-          "power": 200,
-          "rate": 1,
-          "costEP": 20,
-          "range": 400,
-          "effectiveRange": 400,
-          "effectiveTime": 6,
-          "preDelay": 0,
-          "postDelay": 1,
-          "targetNeed" : false,
-          "targetFriendly" : false,
-          "rangeShapeType": 3
-        },
-        {
-          "name": "ThunderStorm",
-          "power": 1000,
-          "rate": 1,
-          "costEP": 60,
-          "range": 1000,
-          "effectiveRange": 600,
-          "effectiveTime": 6,
-          "preDelay": 2,
-          "postDelay": 16,
-          "targetNeed" : true,
-          "targetFriendly" : false,
-          "rangeShapeType": 2
-        },
-        {
-          "name": "MagicRune",
-          "power": 60,
-          "rate": 1,
-          "costEP": 0,
-          "range": 1000,
-          "effectiveRange": 0,
-          "effectiveTime": 0,
-          "preDelay": 0,
-          "postDelay": 0,
-          "targetNeed" : false,
-          "targetFriendly" : false,
-          "rangeShapeType": 0
-        }
-      ]
-    },
-    {
-      "info": {
-        "id": "2",
-        "type": "battle",
-        "name": "Acolyte",
-        "description": "힐링팩트 유물 소유자\n치유시 아군의 머리만 노린다.",
-        "selectDescription": "<RichText.GoldBold>[아콜라이트]</>로 전투에 참여하시겠습니까?"
-      },
-      "mutalbeData": {
-        "level": 1,
-        "exp": 0,
-        "healthPoint": 3000,
-        "energyPoint": 180,
-        "erosionPoint": 60
-      },
-      "stats": {
-        "attackPower": 1.0,
-        "attackSpeed": 170,
-        "defensePower": 0,
-        "moveSpeed": 300,
-        "criticalProbability": 0.1,
-        "hpRecoveryValue": 2.0,
-        "epRecoveryValue": 2.0
-      },
-      "skin": [
-        {
-          "name": "Base",
-          "path": "/Game/NPC/PC/Material/MaterialInstance/PC_ACO_00_mtr"
-        },
-        {
-          "name": "TypeA",
-          "path": "/Game/NPC/PC/Material/MaterialInstance/PC_ACO_00_mtr_GoldHair"
-        }
-      ],
-      "skills": [
-        {
-          "name": "Pray",
-          "power": 200,
-          "rate": 1,
-          "costEP": 35,
-          "range": 800,
-          "effectiveRange": 0,
-          "effectiveTime": 20,
-          "preDelay": 0,
-          "postDelay": 5,
-          "targetNeed" : true,
-          "targetFriendly" : true,
-          "rangeShapeType": 0
-        },
-        {
-          "name": "HolyGrace",
-          "power": 400,
-          "rate": 1,
-          "costEP": 50,
-          "range": 400,
-          "effectiveRange": 400,
-          "effectiveTime": 0,
-          "preDelay": 0,
-          "postDelay": 6,
-          "targetNeed" : false,
-          "targetFriendly" : false,
-          "rangeShapeType": 2
-        },
-        {
-          "name": "MichaelSymbol",
-          "power": 0,
-          "rate": 1,
-          "costEP": 15,
-          "range": 0,
-          "effectiveRange": 600,
-          "effectiveTime": 20,
-          "preDelay": 0,
-          "postDelay": 5,
-          "targetNeed" : false,
-          "targetFriendly" : false,
-          "rangeShapeType": 0
-        },
-        {
-          "name": "Evade",
-          "power": 100,
-          "rate": 1,
-          "costEP": 15,
-          "range": 800,
-          "effectiveRange": 0,
-          "effectiveTime": 0,
-          "preDelay": 0,
-          "postDelay": 10,
-          "targetNeed" : false,
-          "targetFriendly" : false,
-          "rangeShapeType": 0
-        },
-        {
-          "name": "GabrielSymbol",
-          "power": 0.2,
-          "rate": 1,
-          "costEP": 15,
-          "range": 0,
-          "effectiveRange": 400,
-          "effectiveTime": 10,
-          "preDelay": 0,
-          "postDelay": 5,
-          "targetNeed" : false,
-          "targetFriendly" : false,
-          "rangeShapeType": 2
-        },
-        {
-          "name": "Blessing",
-          "power": 0,
-          "rate": 1,
-          "costEP": 60,
-          "range": 0,
-          "effectiveRange": 500,
-          "effectiveTime": 2,
-          "preDelay": 1,
-          "postDelay": 16,
-          "targetNeed" : false,
-          "targetFriendly" : false,
-          "rangeShapeType": 2
-        },
-        {
-          "name": "IntimidatingFire",
-          "power": 30,
-          "rate": 1,
-          "costEP": 0,
-          "range": 1300,
-          "effectiveRange": 0,
-          "effectiveTime": 0,
-          "preDelay": 0,
-          "postDelay": 0,
-          "targetNeed" : false,
-          "targetFriendly" : false,
-          "rangeShapeType": 0
-        }
-      ]
-    },
-    {
-      "info": {
-        "id": "3",
-        "type": "command",
-        "name": "Commander",
-        "description": "전장을 지휘하여 아군을\n제압합니다",
-        "selectDescription": "<RichText.GoldBold>[커맨더]</>로 전투에 참여하시겠습니까?"
-      },
-      "mutalbeData": {
-        "level": 1,
-        "exp": 0,
-        "healthPoint": 1000,
-        "energyPoint": 180,
-        "erosionPoint": 60
-      },
-      "stats": {
-        "attackPower": 60,
-        "attackSpeed": 170,
-        "defensePower": 0,
-        "moveSpeed": 300,
-        "criticalProbability": 10,
-        "hpRecoveryValue": 0.0,
-        "epRecoveryValue": 0.0
-      },
-      "skin": [],
-      "skills": []
-    }
-  ]
+	"update": {
+		"version": "1.0.0",
+		"serverCdnUrl": "http://10.110.30.160:8080/",
+		"refresh": false,
+		"contents": [{
+				"additional": false,
+				"manifestUrl": "paks/ManifestDir/Battle_pakchunk11.0.manifest",
+				"cloudUrl": "paks/CloudDir",
+				"installDir": "GameData1"
+			},
+			{
+				"additional": false,
+				"manifestUrl": "paks/ManifestDir/Battle_pakchunk21.0.manifest",
+				"cloudUrl": "paks/CloudDir",
+				"installDir": "GameData2"
+			},
+			{
+				"additional": false,
+				"manifestUrl": "dlc/ManifestDir/Battle_pakchunk2DLC1.0.manifest",
+				"cloudUrl": "dlc/CloudDir",
+				"installDir": "GameDataDLC2"
+			},
+			{
+				"additional": false,
+				"manifestUrl": "dlc/ManifestDir/Battle_pakchunk3DLC1.0.manifest",
+				"cloudUrl": "dlc/CloudDir",
+				"installDir": "GameDataDLC3"
+			},
+			{
+				"additional": false,
+				"manifestUrl": "dlc/ManifestDir/Battle_pakchunk4DLC1.0.manifest",
+				"cloudUrl": "dlc/CloudDir",
+				"installDir": "GameDataDLC4"
+			},
+			{
+				"additional": false,
+				"manifestUrl": "paks/ManifestDir/Battle_pakchunk10001.0.manifest",
+				"cloudUrl": "paks/CloudDir",
+				"installDir": "GameData1000"
+			},
+			{
+				"additional": false,
+				"manifestUrl": "paks/ManifestDir/Battle_pakchunk10011.0.manifest",
+				"cloudUrl": "paks/CloudDir",
+				"installDir": "GameData1001"
+			},
+			{
+				"additional": false,
+				"manifestUrl": "paks/ManifestDir/Battle_pakchunk10021.0.manifest",
+				"cloudUrl": "paks/CloudDir",
+				"installDir": "GameData1002"
+			}
+		],
+		"patch": []
+	},
+	"system": {
+		"gameMode": {
+			"roundTime": 900,
+			"serverIp": "127.0.0.1"
+		}
+	},
+	"character": [{
+			"info": {
+				"id": "0",
+				"type": "battle",
+				"name": "Warrior",
+				"description": "한번 전투를 시작하면\n아군 적군없이 쓰러뜨린다.",
+				"selectDescription": "<RichText.GoldBold>[워리어]</>로 전투에 참여하시겠습니까?"
+			},
+			"mutalbeData": {
+				"level": 1,
+				"exp": 0,
+				"healthPoint": 3000,
+				"energyPoint": 100,
+				"erosionPoint": 60
+			},
+			"stats": {
+				"attackPower": 1.0,
+				"attackSpeed": 150,
+				"defensePower": 0,
+				"moveSpeed": 350,
+				"criticalProbability": 0.1,
+				"hpRecoveryValue": 15.0,
+				"epRecoveryValue": 5.0
+			},
+			"skin": [{
+					"name": "Base",
+					"path": "/Game/NPC/PC/Material/MaterialInstance/PC_WAR_00_mtr"
+				},
+				{
+					"name": "TypeA",
+					"path": "/Game/NPC/PC/Material/MaterialInstance/PC_WAR_00_mtr_BR"
+				}
+			],
+			"skills": [{
+					"name":             "Cresentslash",
+					"power":            300,
+					"rate":             1,
+					"costEP":           15,
+					"range":            400,
+					"effectiveRange":   400,
+					"effectiveTime":    0,
+					"preDelay":         0,
+					"postDelay":        10,
+					"targetNeed":       false,
+					"targetFriendly":   false,
+					"rangeShapeType":   1
+				},
+				{
+					"name":             "Fullmoon",
+					"power":            150,
+					"rate":             0,
+					"costEP":           10,
+					"range":            400,
+					"effectiveRange":   400,
+					"effectiveTime":    0,
+					"preDelay":         1,
+					"postDelay":        3,
+					"targetNeed":       false,
+					"targetFriendly":   false,
+					"rangeShapeType":   2
+				},
+				{
+					"name":             "Depth1",
+					"power":            0.5,
+					"rate":             1,
+					"costEP":           30,
+					"range":            150,
+					"effectiveRange":   150,
+					"effectiveTime":    10,
+					"preDelay":         0,
+					"postDelay":        20,
+					"targetNeed":       false,
+					"targetFriendly":   false,
+					"rangeShapeType":   2
+				},
+				{
+					"name":             "Dash",
+					"power":            200,
+					"rate":             1,
+					"costEP":           20,
+					"range":            350,
+					"effectiveRange":   350,
+					"effectiveTime":    0,
+					"preDelay":         0,
+					"postDelay":        2,
+					"targetNeed":       false,
+					"targetFriendly":   false,
+					"rangeShapeType":   0
+				},
+				{
+					"name":             "Depth3",
+					"power":            0.6,
+					"rate":             1,
+					"costEP":           30,
+					"range":            0,
+					"effectiveRange":   0,
+					"effectiveTime":    10,
+					"preDelay":         0,
+					"postDelay":        20,
+					"targetNeed":       false,
+					"targetFriendly":   false,
+					"rangeShapeType":   0
+				},
+				{
+					"name":             "Proveke",
+					"power":            0,
+					"rate":             1,
+					"costEP":           20,
+					"range":            600,
+					"effectiveRange":   0,
+					"effectiveTime":    3,
+					"preDelay":         0,
+					"postDelay":        30,
+					"targetNeed":       true,
+					"targetFriendly":   false,
+					"rangeShapeType":   0
+				},
+				{
+					"name":             "Slash",
+					"power":            120,
+					"rate":             1,
+					"costEP":           0,
+					"range":            400,
+					"effectiveRange":   300,
+					"effectiveTime":    0,
+					"preDelay":         0,
+					"postDelay":        0,
+					"targetNeed":       false,
+					"targetFriendly":   false,
+					"rangeShapeType":   1
+				}
+			]
+		},
+		{
+			"info": {
+				"id": "1",
+				"type": "battle",
+				"name": "Wizard",
+				"description": "귀여운 이름과는 다르게\n생긴건 심히 아저씨다.",
+				"selectDescription": "<RichText.GoldBold>[위저드]</>로 전투에 참여하시겠습니까?"
+			},
+			"mutalbeData": {
+				"level": 1,
+				"exp": 0,
+				"healthPoint": 1600,
+				"energyPoint": 200,
+				"erosionPoint": 60
+			},
+			"stats": {
+				"attackPower": 1.0,
+				"attackSpeed": 170,
+				"defensePower": 0,
+				"moveSpeed": 300,
+				"criticalProbability": 0.1,
+				"hpRecoveryValue": 5.0,
+				"epRecoveryValue": 10.0
+			},
+			"skin": [{
+					"name": "Base",
+					"path": "/Game/NPC/PC/Material/MaterialInstance/PC_WIZ_00_mtr"
+				},
+				{
+					"name": "TypeA",
+					"path": "/Game/NPC/PC/Material/MaterialInstance/PC_WIZ_00_mtr1_RED"
+				},
+				{
+					"name": "TypeB",
+					"path": "/Game/NPC/PC/Material/MaterialInstance/PC_WIZ_00_mtr1_Black"
+				},
+				{
+					"name": "TypeC",
+					"path": "/Game/NPC/PC/Material/MaterialInstance/PC_WIZ_00_mtr1_White"
+				}
+			],
+			"skills": [{
+					"name":             "FireRune",
+					"power":            160,
+					"rate":             1,
+					"costEP":           40,
+					"range":            800,
+					"effectiveRange":   120,
+					"effectiveTime":    0,
+					"preDelay":         0,
+					"postDelay":        2,
+					"targetNeed":       false,
+					"targetFriendly":   false,
+					"rangeShapeType":   0
+				},
+				{
+					"name":             "OverheadStone",
+					"power":            600,
+					"rate":             1,
+					"costEP":           80,
+					"range":            1000,
+					"effectiveRange":   500,
+					"effectiveTime":    0,
+					"preDelay":         3,
+					"postDelay":        15,
+					"targetNeed":       true,
+					"targetFriendly":   false,
+					"rangeShapeType":   2
+				},
+				{
+					"name":             "Vulnerable",
+					"power":            0.5,
+					"rate":             1,
+					"costEP":           30,
+					"range":            800,
+					"effectiveRange":   0,
+					"effectiveTime":    10,
+					"preDelay":         1,
+					"postDelay":        20,
+					"targetNeed":       true,
+					"targetFriendly":   false,
+					"rangeShapeType":   0
+				},
+				{
+					"name":             "Blink",
+					"power":            0,
+					"rate":             1,
+					"costEP":           30,
+					"range":            0,
+					"effectiveRange":   0,
+					"effectiveTime":    0,
+					"preDelay":         1,
+					"postDelay":        3,
+					"targetNeed":       false,
+					"targetFriendly":   false,
+					"rangeShapeType":   0
+				},
+				{
+					"name":             "Corruption",
+					"power":            200,
+					"rate":             1,
+					"costEP":           20,
+					"range":            400,
+					"effectiveRange":   400,
+					"effectiveTime":    6,
+					"preDelay":         0,
+					"postDelay":        1,
+					"targetNeed":       false,
+					"targetFriendly":   false,
+					"rangeShapeType":   3
+				},
+				{
+					"name":             "ThunderStorm",
+					"power":            1600,
+					"rate":             1,
+					"costEP":           100,
+					"range":            1000,
+					"effectiveRange":   1000,
+					"effectiveTime":    8,
+					"preDelay":         5,
+					"postDelay":        90,
+					"targetNeed":       true,
+					"targetFriendly":   false,
+					"rangeShapeType":   2
+				},
+				{
+					"name":             "MagicRune",
+					"power":            90,
+					"rate":             1,
+					"costEP":           0,
+					"range":            1600,
+					"effectiveRange":   0,
+					"effectiveTime":    0,
+					"preDelay":         0,
+					"postDelay":        0,
+					"targetNeed":       false,
+					"targetFriendly":   false,
+					"rangeShapeType":   0
+				}
+			]
+		},
+		{
+			"info": {
+				"id": "2",
+				"type": "battle",
+				"name": "Acolyte",
+				"description": "힐링팩트 유물 소유자\n치유시 아군의 머리만 노린다.",
+				"selectDescription": "<RichText.GoldBold>[아콜라이트]</>로 전투에 참여하시겠습니까?"
+			},
+			"mutalbeData": {
+				"level": 1,
+				"exp": 0,
+				"healthPoint": 2200,
+				"energyPoint": 150,
+				"erosionPoint": 60
+			},
+			"stats": {
+				"attackPower": 1.0,
+				"attackSpeed": 170,
+				"defensePower": 0,
+				"moveSpeed": 300,
+				"criticalProbability": 0.1,
+				"hpRecoveryValue": 10.0,
+				"epRecoveryValue": 8.0
+			},
+			"skin": [{
+					"name": "Base",
+					"path": "/Game/NPC/PC/Material/MaterialInstance/PC_ACO_00_mtr"
+				},
+				{
+					"name": "TypeA",
+					"path": "/Game/NPC/PC/Material/MaterialInstance/PC_ACO_00_mtr_GoldHair"
+				}
+			],
+			"skills": [{
+					"name":             "Pray",
+					"power":            200,
+					"rate":             1,
+					"costEP":           20,
+					"range":            800,
+					"effectiveRange":   0,
+					"effectiveTime":    20,
+					"preDelay":         0,
+					"postDelay":        20,
+					"targetNeed":       true,
+					"targetFriendly":   true,
+					"rangeShapeType":   0
+				},
+				{
+					"name":             "HolyGrace",
+					"power":            300,
+					"rate":             1,
+					"costEP":           15,
+					"range":            500,
+					"effectiveRange":   500,
+					"effectiveTime":    0,
+					"preDelay":         3,
+					"postDelay":        1,
+					"targetNeed":       false,
+					"targetFriendly":   false,
+					"rangeShapeType":   2
+				},
+				{
+					"name":             "MichaelSymbol",
+					"power":            0,
+					"rate":             1,
+					"costEP":           25,
+					"range":            0,
+					"effectiveRange":   600,
+					"effectiveTime":    10,
+					"preDelay":         0,
+					"postDelay":        20,
+					"targetNeed":       false,
+					"targetFriendly":   false,
+					"rangeShapeType":   0
+				},
+				{
+					"name":             "Evade",
+					"power":            100,
+					"rate":             1,
+					"costEP":           10,
+					"range":            600,
+					"effectiveRange":   0,
+					"effectiveTime":    0,
+					"preDelay":         0,
+					"postDelay":        40,
+					"targetNeed":       false,
+					"targetFriendly":   false,
+					"rangeShapeType":   0
+				},
+				{
+					"name":             "GabrielSymbol",
+					"power":            0.5,
+					"rate":             1,
+					"costEP":           25,
+					"range":            0,
+					"effectiveRange":   1000,
+					"effectiveTime":    5,
+					"preDelay":         0,
+					"postDelay":        10,
+					"targetNeed":       false,
+					"targetFriendly":   false,
+					"rangeShapeType":   2
+				},
+				{
+					"name":             "Blessing",
+					"power":            0,
+					"rate":             1,
+					"costEP":           80,
+					"range":            0,
+					"effectiveRange":   600,
+					"effectiveTime":    5,
+					"preDelay":         2,
+					"postDelay":        60,
+					"targetNeed":       false,
+					"targetFriendly":   false,
+					"rangeShapeType":   2
+				},
+				{
+					"name":             "IntimidatingFire",
+					"power":            70,
+					"rate":             1,
+					"costEP":           0,
+					"range":            1000,
+					"effectiveRange":   0,
+					"effectiveTime":    0,
+					"preDelay":         0,
+					"postDelay":        0,
+					"targetNeed":       false,
+					"targetFriendly":   false,
+					"rangeShapeType":   0
+				}
+			]
+		},
+		{
+			"info": {
+				"id": "3",
+				"type": "command",
+				"name": "Commander",
+				"description": "전장을 지휘하여 아군을\n제압합니다",
+				"selectDescription": "<RichText.GoldBold>[커맨더]</>로 전투에 참여하시겠습니까?"
+			},
+			"mutalbeData": {
+				"level": 1,
+				"exp": 0,
+				"healthPoint": 1000,
+				"energyPoint": 180,
+				"erosionPoint": 60
+			},
+			"stats": {
+				"attackPower": 60,
+				"attackSpeed": 170,
+				"defensePower": 0,
+				"moveSpeed": 300,
+				"criticalProbability": 10,
+				"hpRecoveryValue": 0.0,
+				"epRecoveryValue": 0.0
+			},
+			"skin": [],
+			"skills": []
+		}
+	]
 }
