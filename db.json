@@ -446,7 +446,7 @@
 					"effectiveRange":   300,
 					"effectiveTime":    5,
 					"preDelay":         2,
-					"postDelay":        60,
+					"postDelay":        1,
 					"targetNeed":       false,
 					"targetFriendly":   false,
 					"rangeShapeType":   2
