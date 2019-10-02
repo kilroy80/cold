@@ -442,7 +442,7 @@
 					"power":            0,
 					"rate":             1,
 					"costEP":           80,
-					"range":            0,
+					"range":            300,
 					"effectiveRange":   300,
 					"effectiveTime":    5,
 					"preDelay":         2,
