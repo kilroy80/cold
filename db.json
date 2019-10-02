@@ -172,7 +172,7 @@
 					"effectiveRange":   0,
 					"effectiveTime":    3,
 					"preDelay":         0,
-					"postDelay":        1,
+					"postDelay":        30,
 					"targetNeed":       true,
 					"targetFriendly":   false,
 					"rangeShapeType":   0
