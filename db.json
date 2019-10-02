@@ -109,7 +109,7 @@
 				},
 				{
 					"name":             "Fullmoon",
-					"power":            150,
+					"power":            1500,
 					"rate":             0,
 					"costEP":           10,
 					"range":            400,
@@ -172,7 +172,7 @@
 					"effectiveRange":   0,
 					"effectiveTime":    3,
 					"preDelay":         0,
-					"postDelay":        30,
+					"postDelay":        1,
 					"targetNeed":       true,
 					"targetFriendly":   false,
 					"rangeShapeType":   0
