@@ -443,7 +443,7 @@
 					"rate":             1,
 					"costEP":           80,
 					"range":            300,
-					"effectiveRange":   300,
+					"effectiveRange":   0,
 					"effectiveTime":    5,
 					"preDelay":         2,
 					"postDelay":        60,
