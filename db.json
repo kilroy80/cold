@@ -95,7 +95,7 @@
 			],
 			"skills": [{
 					"name":             "Cresentslash",
-					"power":            300,
+					"power":            30000,
 					"rate":             1,
 					"costEP":           20,
 					"range":            400,
@@ -109,7 +109,7 @@
 				},
 				{
 					"name":             "Fullmoon",
-					"power":            1500,
+					"power":            150,
 					"rate":             0,
 					"costEP":           10,
 					"range":            400,
