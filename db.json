@@ -71,7 +71,7 @@
 			"mutalbeData": {
 				"level": 1,
 				"exp": 0,
-				"healthPoint": 300,
+				"healthPoint": 3000,
 				"energyPoint": 100,
 				"erosionPoint": 60
 			},
@@ -95,7 +95,7 @@
 			],
 			"skills": [{
 					"name":             "Cresentslash",
-					"power":            3000,
+					"power":            300,
 					"rate":             1,
 					"costEP":           20,
 					"range":            400,
