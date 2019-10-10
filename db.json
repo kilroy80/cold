@@ -71,7 +71,7 @@
 			"mutalbeData": {
 				"level": 1,
 				"exp": 0,
-				"healthPoint": 3000,
+				"healthPoint": 300,
 				"energyPoint": 100,
 				"erosionPoint": 60
 			},
