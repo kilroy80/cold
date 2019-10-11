@@ -95,7 +95,7 @@
 			],
 			"skills": [{
 					"name":             "Cresentslash",
-					"power":            300,
+					"power":            33333,
 					"rate":             1,
 					"costEP":           20,
 					"range":            400,
@@ -411,7 +411,7 @@
 				},
 				{
 					"name":             "Evade",
-					"power":            1000,
+					"power":            300,
 					"rate":             1,
 					"costEP":           10,
 					"range":            400,
