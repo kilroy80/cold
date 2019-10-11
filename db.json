@@ -396,13 +396,13 @@
 					"rangeShapeType":   2
 				},
 				{
-					"name":             "MichaelSymbol",
-					"power":            0,
+					"name":             "Extra01",
+					"power":            350,
 					"rate":             1,
 					"costEP":           25,
-					"range":            0,
-					"effectiveRange":   600,
-					"effectiveTime":    10,
+					"range":            1000,
+					"effectiveRange":   0,
+					"effectiveTime":    0,
 					"preDelay":         0,
 					"postDelay":        20,
 					"targetNeed":       false,
