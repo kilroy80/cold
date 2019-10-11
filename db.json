@@ -411,17 +411,17 @@
 				},
 				{
 					"name":             "Evade",
-					"power":            100,
+					"power":            1000,
 					"rate":             1,
 					"costEP":           10,
-					"range":            600,
-					"effectiveRange":   0,
+					"range":            400,
+					"effectiveRange":   400,
 					"effectiveTime":    0,
 					"preDelay":         0,
 					"postDelay":        40,
 					"targetNeed":       false,
 					"targetFriendly":   false,
-					"rangeShapeType":   0
+					"rangeShapeType":   1
 				},
 				{
 					"name":             "GabrielSymbol",
