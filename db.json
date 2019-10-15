@@ -56,7 +56,7 @@
 	},
 	"system": {
 		"gameMode": {
-			"roundTime": 10,
+			"roundTime": 600,
 			"serverIp": "127.0.0.1"
 		}
 	},
