@@ -247,7 +247,7 @@
 			],
 			"skills": [{
 					"name":             "Cresentslash",
-					"power":            300,
+					"power":            300000,
 					"rate":             1,
 					"costEP":           20,
 					"range":            400,
