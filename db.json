@@ -231,7 +231,7 @@
 				"attackPower": 1.0,
 				"attackSpeed": 150,
 				"defensePower": 0,
-				"moveSpeed": 350,
+				"moveSpeed": 420,
 				"criticalProbability": 0.1,
 				"hpRecoveryValue": 15.0,
 				"epRecoveryValue": 3.0
@@ -364,7 +364,7 @@
 				"attackPower": 1.0,
 				"attackSpeed": 170,
 				"defensePower": 0,
-				"moveSpeed": 300,
+				"moveSpeed": 360,
 				"criticalProbability": 0.1,
 				"hpRecoveryValue": 10.0,
 				"epRecoveryValue": 7.0
@@ -505,7 +505,7 @@
 				"attackPower": 1.0,
 				"attackSpeed": 170,
 				"defensePower": 0,
-				"moveSpeed": 300,
+				"moveSpeed": 360,
 				"criticalProbability": 0.1,
 				"hpRecoveryValue": 20.0,
 				"epRecoveryValue": 5.0
