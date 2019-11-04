@@ -62,8 +62,8 @@
 	},
 	"commanderCard": [
 		{
-		    "name":             "<CardTitle>카드이름</>",
- 		    "description":      "<CardWhite>카드의 </><CardYellow>공격력 증가</><CardWhite>설명 카드의 설명</><CardRed>방어력 감소 </><CardWhite>카드의 설명 카드의 설명</>",
+		    "name":             "카드이름",
+ 		    "description":      "카드의 <CYellow>공격력 증가</>설명 카드의 설명<CRed>방어력 감소</> 카드의 설명 카드의 설명",
 		    "power":            1,
 		    "rate":             1,
 		    "cost":             1,
@@ -77,8 +77,8 @@
 		    "rangeShapeType":   1
 		},
 		{
-		    "name":             "<CardTitle>카드이름</>",
-		    "description":      "<CardWhite>카드의 </><CardYellow>공격력 증가</><CardWhite>설명 카드의 설명</><CardRed>방어력 감소 </><CardWhite>카드의 설명 카드의 설명</>",
+		    "name":             "카드이름",
+		    "description":      "카드의 <CYellow>공격력 증가</>설명 카드의 설명<CRed>방어력 감소</> 카드의 설명 카드의 설명",
 		    "power":            1,
 		    "rate":             1,
 		    "cost":             1,
@@ -92,8 +92,8 @@
 		    "rangeShapeType":   1
 		},
 		{
-		    "name":             "<CardTitle>카드이름</>",
-		    "description":      "<CardWhite>카드의 </><CardYellow>공격력 증가</><CardWhite>설명 카드의 설명</><CardRed>방어력 감소 </><CardWhite>카드의 설명 카드의 설명</>",
+		    "name":             "카드이름",
+		    "description":      "카드의 <CYellow>공격력 증가</>설명 카드의 설명<CRed>방어력 감소</> 카드의 설명 카드의 설명",
 		    "power":            1,
 		    "rate":             1,
 		    "cost":             1,
@@ -107,8 +107,8 @@
 		    "rangeShapeType":   1
 		},
 		{
-		    "name":             "<CardTitle>카드이름</>",
-		    "description":      "<CardWhite>카드의 </><CardYellow>공격력 증가</><CardWhite>설명 카드의 설명</><CardRed>방어력 감소 </><CardWhite>카드의 설명 카드의 설명</>",
+		    "name":             "카드이름",
+		    "description":      "카드의 <CYellow>공격력 증가</>설명 카드의 설명<CRed>방어력 감소</> 카드의 설명 카드의 설명",
 		    "power":            1,
 		    "rate":             1,
 		    "cost":             1,
@@ -122,8 +122,8 @@
 		    "rangeShapeType":   1
 		},
 		{
-		    "name":             "<CardTitle>카드이름</>",
-		    "description":      "<CardWhite>카드의 </><CardYellow>공격력 증가</><CardWhite>설명 카드의 설명</><CardRed>방어력 감소 </><CardWhite>카드의 설명 카드의 설명</>",
+		    "name":             "카드이름",
+		    "description":      "카드의 <CYellow>공격력 증가</>설명 카드의 설명<CRed>방어력 감소</> 카드의 설명 카드의 설명",
 		    "power":            1,
 		    "rate":             1,
 		    "cost":             1,
@@ -137,8 +137,8 @@
 		    "rangeShapeType":   1
 		},
 		{
-		    "name":             "<CardTitle>카드이름</>",
-		    "description":      "<CardWhite>카드의 </><CardYellow>공격력 증가</><CardWhite>설명 카드의 설명</><CardRed>방어력 감소 </><CardWhite>카드의 설명 카드의 설명</>",
+		    "name":             "카드이름",
+		    "description":      "카드의 <CYellow>공격력 증가</>설명 카드의 설명<CRed>방어력 감소</> 카드의 설명 카드의 설명",
 		    "power":            1,
 		    "rate":             1,
 		    "cost":             1,
@@ -152,8 +152,8 @@
 		    "rangeShapeType":   1
 		},
 		{
-		    "name":             "<CardTitle>카드이름</>",
-		    "description":      "<CardWhite>카드의 </><CardYellow>공격력 증가</><CardWhite>설명 카드의 설명</><CardRed>방어력 감소 </><CardWhite>카드의 설명 카드의 설명</>",
+		    "name":             "카드이름",
+		    "description":      "카드의 <CYellow>공격력 증가</>설명 카드의 설명<CRed>방어력 감소</> 카드의 설명 카드의 설명",
 		    "power":            1,
 		    "rate":             1,
 		    "cost":             1,
@@ -167,8 +167,8 @@
 		    "rangeShapeType":   1
 		},
 		{
-		    "name":             "<CardTitle>카드이름</>",
-		    "description":      "<CardWhite>카드의 </><CardYellow>공격력 증가</><CardWhite>설명 카드의 설명</><CardRed>방어력 감소 </><CardWhite>카드의 설명 카드의 설명</>",
+		    "name":             "카드이름",
+		    "description":      "카드의 <CYellow>공격력 증가</>설명 카드의 설명<CRed>방어력 감소</> 카드의 설명 카드의 설명",
 		    "power":            1,
 		    "rate":             1,
 		    "cost":             1,
@@ -182,8 +182,8 @@
 		    "rangeShapeType":   1
 		},
 		{
-		    "name":             "<CardTitle>카드이름</>",
-		    "description":      "<CardWhite>카드의 </><CardYellow>공격력 증가</><CardWhite>설명 카드의 설명</><CardRed>방어력 감소 </><CardWhite>카드의 설명 카드의 설명</>",
+		    "name":             "카드이름",
+		    "description":      "카드의 <CYellow>공격력 증가</>설명 카드의 설명<CRed>방어력 감소</> 카드의 설명 카드의 설명",
 		    "power":            1,
 		    "rate":             1,
 		    "cost":             1,
@@ -197,8 +197,8 @@
 		    "rangeShapeType":   1
 		},
 		{
-		    "name":             "<CardTitle>카드이름</>",
-		    "description":      "<CardWhite>카드의 </><CardYellow>공격력 증가</><CardWhite>설명 카드의 설명</><CardRed>방어력 감소 </><CardWhite>카드의 설명 카드의 설명</>",
+		    "name":             "카드이름",
+		    "description":      "카드의 <CYellow>공격력 증가</>설명 카드의 설명<CRed>방어력 감소</> 카드의 설명 카드의 설명",
 		    "power":            1,
 		    "rate":             1,
 		    "cost":             1,
