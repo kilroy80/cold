@@ -62,8 +62,8 @@
 	},
 	"commanderCard": [
 		{
-		    "name":             "1",
-		    "description":      "설명1",
+		    "name":             "<CardTitle>카드이름</>",
+ 		    "description":      "<CardWhite>카드의 </><CardYellow>공격력 증가</><CardWhite>설명 카드의 설명</><CardRed>방어력 감소 </><CardWhite>카드의 설명 카드의 설명</>",
 		    "power":            1,
 		    "rate":             1,
 		    "cost":             1,
@@ -77,8 +77,8 @@
 		    "rangeShapeType":   1
 		},
 		{
-		    "name":             "2",
-		    "description":      "설명2",
+		    "name":             "<CardTitle>카드이름</>",
+		    "description":      "<CardWhite>카드의 </><CardYellow>공격력 증가</><CardWhite>설명 카드의 설명</><CardRed>방어력 감소 </><CardWhite>카드의 설명 카드의 설명</>",
 		    "power":            1,
 		    "rate":             1,
 		    "cost":             1,
@@ -92,8 +92,8 @@
 		    "rangeShapeType":   1
 		},
 		{
-		    "name":             "3",
-		    "description":      "설명3",
+		    "name":             "<CardTitle>카드이름</>",
+		    "description":      "<CardWhite>카드의 </><CardYellow>공격력 증가</><CardWhite>설명 카드의 설명</><CardRed>방어력 감소 </><CardWhite>카드의 설명 카드의 설명</>",
 		    "power":            1,
 		    "rate":             1,
 		    "cost":             1,
@@ -107,8 +107,8 @@
 		    "rangeShapeType":   1
 		},
 		{
-		    "name":             "4",
-		    "description":      "설명4",
+		    "name":             "<CardTitle>카드이름</>",
+		    "description":      "<CardWhite>카드의 </><CardYellow>공격력 증가</><CardWhite>설명 카드의 설명</><CardRed>방어력 감소 </><CardWhite>카드의 설명 카드의 설명</>",
 		    "power":            1,
 		    "rate":             1,
 		    "cost":             1,
@@ -122,8 +122,8 @@
 		    "rangeShapeType":   1
 		},
 		{
-		    "name":             "5",
-		    "description":      "설명5",
+		    "name":             "<CardTitle>카드이름</>",
+		    "description":      "<CardWhite>카드의 </><CardYellow>공격력 증가</><CardWhite>설명 카드의 설명</><CardRed>방어력 감소 </><CardWhite>카드의 설명 카드의 설명</>",
 		    "power":            1,
 		    "rate":             1,
 		    "cost":             1,
@@ -137,8 +137,8 @@
 		    "rangeShapeType":   1
 		},
 		{
-		    "name":             "6",
-		    "description":      "설명6",
+		    "name":             "<CardTitle>카드이름</>",
+		    "description":      "<CardWhite>카드의 </><CardYellow>공격력 증가</><CardWhite>설명 카드의 설명</><CardRed>방어력 감소 </><CardWhite>카드의 설명 카드의 설명</>",
 		    "power":            1,
 		    "rate":             1,
 		    "cost":             1,
@@ -152,8 +152,8 @@
 		    "rangeShapeType":   1
 		},
 		{
-		    "name":             "7",
-		    "description":      "설명7",
+		    "name":             "<CardTitle>카드이름</>",
+		    "description":      "<CardWhite>카드의 </><CardYellow>공격력 증가</><CardWhite>설명 카드의 설명</><CardRed>방어력 감소 </><CardWhite>카드의 설명 카드의 설명</>",
 		    "power":            1,
 		    "rate":             1,
 		    "cost":             1,
@@ -167,8 +167,8 @@
 		    "rangeShapeType":   1
 		},
 		{
-		    "name":             "8",
-		    "description":      "설명8",
+		    "name":             "<CardTitle>카드이름</>",
+		    "description":      "<CardWhite>카드의 </><CardYellow>공격력 증가</><CardWhite>설명 카드의 설명</><CardRed>방어력 감소 </><CardWhite>카드의 설명 카드의 설명</>",
 		    "power":            1,
 		    "rate":             1,
 		    "cost":             1,
@@ -182,8 +182,8 @@
 		    "rangeShapeType":   1
 		},
 		{
-		    "name":             "9",
-		    "description":      "설명9",
+		    "name":             "<CardTitle>카드이름</>",
+		    "description":      "<CardWhite>카드의 </><CardYellow>공격력 증가</><CardWhite>설명 카드의 설명</><CardRed>방어력 감소 </><CardWhite>카드의 설명 카드의 설명</>",
 		    "power":            1,
 		    "rate":             1,
 		    "cost":             1,
@@ -197,8 +197,8 @@
 		    "rangeShapeType":   1
 		},
 		{
-		    "name":             "10",
-		    "description":      "설명10",
+		    "name":             "<CardTitle>카드이름</>",
+		    "description":      "<CardWhite>카드의 </><CardYellow>공격력 증가</><CardWhite>설명 카드의 설명</><CardRed>방어력 감소 </><CardWhite>카드의 설명 카드의 설명</>",
 		    "power":            1,
 		    "rate":             1,
 		    "cost":             1,
@@ -223,7 +223,7 @@
 			"mutalbeData": {
 				"level": 1,
 				"exp": 0,
-				"healthPoint": 3000,
+				"healthPoint": 300,
 				"energyPoint": 100,
 				"erosionPoint": 60
 			},
