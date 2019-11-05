@@ -62,7 +62,7 @@
 	},
 	"commanderCard": [
 		{
-		    "name":             "카드이름",
+		    "name":             "공격상승",
  		    "description":      "카드의 <CYellow>공격력 증가</>설명 카드의 설명<CRed>방어력 감소</> 카드의 설명 카드의 설명",
 		    "power":            1,
 		    "rate":             1,
@@ -77,7 +77,7 @@
 		    "rangeShapeType":   1
 		},
 		{
-		    "name":             "카드이름",
+		    "name":             "방어상승",
 		    "description":      "카드의 <CYellow>공격력 증가</>설명 카드의 설명<CRed>방어력 감소</> 카드의 설명 카드의 설명",
 		    "power":            1,
 		    "rate":             1,
@@ -92,7 +92,7 @@
 		    "rangeShapeType":   1
 		},
 		{
-		    "name":             "카드이름",
+		    "name":             "이동상승",
 		    "description":      "카드의 <CYellow>공격력 증가</>설명 카드의 설명<CRed>방어력 감소</> 카드의 설명 카드의 설명",
 		    "power":            1,
 		    "rate":             1,
@@ -107,7 +107,7 @@
 		    "rangeShapeType":   1
 		},
 		{
-		    "name":             "카드이름",
+		    "name":             "잔혹한 덫",
 		    "description":      "카드의 <CYellow>공격력 증가</>설명 카드의 설명<CRed>방어력 감소</> 카드의 설명 카드의 설명",
 		    "power":            1,
 		    "rate":             1,
@@ -122,7 +122,7 @@
 		    "rangeShapeType":   1
 		},
 		{
-		    "name":             "카드이름",
+		    "name":             "비정한 술수",
 		    "description":      "카드의 <CYellow>공격력 증가</>설명 카드의 설명<CRed>방어력 감소</> 카드의 설명 카드의 설명",
 		    "power":            1,
 		    "rate":             1,
@@ -137,7 +137,7 @@
 		    "rangeShapeType":   1
 		},
 		{
-		    "name":             "카드이름",
+		    "name":             "스폰지정",
 		    "description":      "카드의 <CYellow>공격력 증가</>설명 카드의 설명<CRed>방어력 감소</> 카드의 설명 카드의 설명",
 		    "power":            1,
 		    "rate":             1,
@@ -152,7 +152,7 @@
 		    "rangeShapeType":   1
 		},
 		{
-		    "name":             "카드이름",
+		    "name":             "리스폰 단축",
 		    "description":      "카드의 <CYellow>공격력 증가</>설명 카드의 설명<CRed>방어력 감소</> 카드의 설명 카드의 설명",
 		    "power":            1,
 		    "rate":             1,
@@ -167,7 +167,7 @@
 		    "rangeShapeType":   1
 		},
 		{
-		    "name":             "카드이름",
+		    "name":             "실탄 재장전",
 		    "description":      "카드의 <CYellow>공격력 증가</>설명 카드의 설명<CRed>방어력 감소</> 카드의 설명 카드의 설명",
 		    "power":            1,
 		    "rate":             1,
@@ -182,7 +182,7 @@
 		    "rangeShapeType":   1
 		},
 		{
-		    "name":             "카드이름",
+		    "name":             "전체 힐",
 		    "description":      "카드의 <CYellow>공격력 증가</>설명 카드의 설명<CRed>방어력 감소</> 카드의 설명 카드의 설명",
 		    "power":            1,
 		    "rate":             1,
