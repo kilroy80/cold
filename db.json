@@ -62,7 +62,7 @@
 	},
 	"commanderCard": [
 		{
-		    "name":             "공격상승",
+		    "name":             "공격 상승",
  		    "description":      "카드의 <CYellow>공격력 증가</>설명 카드의 설명<CRed>방어력 감소</> 카드의 설명 카드의 설명",
 		    "power":            1,
 		    "rate":             1,
@@ -77,7 +77,7 @@
 		    "rangeShapeType":   1
 		},
 		{
-		    "name":             "방어상승",
+		    "name":             "방어 상승",
 		    "description":      "카드의 <CYellow>공격력 증가</>설명 카드의 설명<CRed>방어력 감소</> 카드의 설명 카드의 설명",
 		    "power":            1,
 		    "rate":             1,
@@ -92,7 +92,7 @@
 		    "rangeShapeType":   1
 		},
 		{
-		    "name":             "이동상승",
+		    "name":             "이동 상승",
 		    "description":      "카드의 <CYellow>공격력 증가</>설명 카드의 설명<CRed>방어력 감소</> 카드의 설명 카드의 설명",
 		    "power":            1,
 		    "rate":             1,
@@ -137,7 +137,7 @@
 		    "rangeShapeType":   1
 		},
 		{
-		    "name":             "스폰지정",
+		    "name":             "스폰 지정",
 		    "description":      "카드의 <CYellow>공격력 증가</>설명 카드의 설명<CRed>방어력 감소</> 카드의 설명 카드의 설명",
 		    "power":            1,
 		    "rate":             1,
@@ -197,7 +197,7 @@
 		    "rangeShapeType":   1
 		},
 		{
-		    "name":             "카드이름",
+		    "name":             "메테오",
 		    "description":      "카드의 <CYellow>공격력 증가</>설명 카드의 설명<CRed>방어력 감소</> 카드의 설명 카드의 설명",
 		    "power":            1,
 		    "rate":             1,
